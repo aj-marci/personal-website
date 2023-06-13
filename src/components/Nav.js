@@ -22,18 +22,27 @@ const handleClick = (anchor) => () => {
                 Alex (AJ) Marcinek II</h1>
               <h2 className="text-lightcream lg:mb-5 md:mb-5 mb-3
                             lg:text-lg md:text-base text-sm max-w-md">
-                software engineer and designer. building, learning, and creating are my passions.</h2>
-              <ul className="text-turqoise">
-                  <li>About</li>
-                  <li>experience</li>
-                      <li>
-                      <a href="#projects-section"></a>
-                        Projects
-                      </li>
+                software engineer and designer. building, learning, and
+                creating are my passions.</h2>
+              <ul className="text-turqoise lg:mt-10 md:mt-8 mt-6">
+                <nav>
+                  <li className="mb-1">
+                    <a className="hover:text-orange" onClick={handleClick("about")}
+                      href="/#about-section">About</a>
+                  </li>
+                  <li className="mb-1">
+                    <a className="hover:text-orange" onClick={handleClick("exp")}
+                      href="/#exp-section">Experience</a>
+                  </li>
+                  <li className="mb-1">
+                    <a className="hover:text-orange" onClick={handleClick("projects")}
+                      href="/#projects-section">Projects</a>
+                  </li>
+                </nav>
               </ul>
           </div>
         </>
       );
     }
-  
+
     export default Nav;
