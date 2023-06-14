@@ -10,6 +10,9 @@ module.exports = {
         'orange': '#EC9A20',
         'background': '#2C2C2C',
       },
+      fontFamily: {
+      'gotham': ['Gotham', 'sans-serif'],
+      },
     },
   },
   plugins: [],
