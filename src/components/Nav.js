@@ -41,15 +41,15 @@ const handleClick = (anchor) => () => {
                       href="/#projects-section">Projects</a>
                   </li>
                   <div className="lg:mt-10 md:mt-10 mt-6">
-                  <a href="mailto: abmarcinek@gmail.com"
+                  <a href="mailto: abmarcinek@gmail.com" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange mr-2">
                     <FontAwesomeIcon icon={faEnvelope} size="xl"/>
                   </a>
-                  <a href="https://github.com/aj-marci"
+                  <a href="https://github.com/aj-marci" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange mr-2">
                     <FontAwesomeIcon icon={faGithub} size="xl"/>
                   </a>
-                  <a href="https://spotify.com"
+                  <a href="https://open.spotify.com/user/wp8iqfaytwv3zqmn80cabyvqs?si=2d1e11409d864f5b" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange">
                     <FontAwesomeIcon icon={faSpotify} size="xl"/>
                   </a>
