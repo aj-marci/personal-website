@@ -2,7 +2,8 @@ function About() {
     return (
         <>
         <div id="about-section"
-        className="lg:mb-8 md:mb-8 mb-5 text-lightcream lg:text-base md:text-base text-xs max-w-md
+        className="lg:mb-24 md:mb-20 mb-8
+        text-lightcream lg:text-base md:text-base text-xs max-w-md
         font-gotham">
             <p className="lg:mb-2 md:mb-2 mb-1">Hola amigos!
             In my senior year of college I embarked on Co-founding
@@ -21,7 +22,7 @@ function About() {
             </a>. In 2022
             I decided to go all-in on coding with a Meta developer course through coursera.
             </p>
-            <p className="lg:mb-2 md:mb-2 mb-1">
+            <p>
             Now I am a striving full-stack engineer obsessed with coding.
             When not at my computer, you can find me cooking, golfing, hiking,
             or anything else outside with

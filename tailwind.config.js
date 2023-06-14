@@ -9,6 +9,7 @@ module.exports = {
         'darkcream': '#E2D0B4',
         'orange': '#EC9A20',
         'background': '#2C2C2C',
+        'groupHover': '#464646',
       },
       fontFamily: {
       'gotham': ['Gotham', 'sans-serif'],
