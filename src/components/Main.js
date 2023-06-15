@@ -1,6 +1,7 @@
 import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 function Main() {
     return (
@@ -10,6 +11,7 @@ function Main() {
           <About />
           <Experience />
           <Projects />
+          <Footer />
         </div>
       </>
     );

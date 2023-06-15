@@ -23,12 +23,12 @@ function Projects() {
         <>
         {projectsData.map(({ image, title, description}) => (
         <div key={title} id="exp-section"
-        className="container p-4 rounded hover:bg-groupHover
+        className="container p-2 rounded hover:bg-groupHover
                     font-gotham lg:mb-16 md:mb-12 mb-8">
-            <img className="w-auto"
+            <img className="w-auto mb-1"
             src={image} alt="project-screenshot"/>
-            <p className="text-orange lg:text-base md:text-base text-sm">{title}</p>
-            <p className="text-lightcream lg:text-sm md:text-sm text-xs">{description}</p>
+            <p className="text-orange lg:text-base md:text-base text-sm mb-1">{title}</p>
+            <p className="text-lightcream lg:text-sm md:text-sm text-xs mb-1">{description}</p>
         </div>
         ))}
         <button className="lg:mb-24 md:mb-20 mb-8 font-gotham font-semibold
