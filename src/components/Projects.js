@@ -1,4 +1,7 @@
+import React from "react";
 import Personal from "./images/personal.png";
+import { Link } from 'react-router-dom';
+
 
 const projectsData = [
     {
@@ -31,9 +34,13 @@ function Projects() {
             <p className="text-lightcream lg:text-sm md:text-sm text-xs mb-1">{description}</p>
         </div>
         ))}
-        <button className="lg:mb-24 md:mb-20 mb-8 font-gotham font-semibold
-                            text-turqoise hover:text-orange"
-                            >View Full GitHub</button>
+        <button>
+            <Link to="/archive"
+                className="lg:mb-24 md:mb-20 mb-8 font-gotham font-semibold text-turqoise
+                hover:text-orange">
+                View All Projects
+            </Link>
+        </button>
         </>
     );
   }

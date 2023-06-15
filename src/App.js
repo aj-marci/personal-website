@@ -1,19 +1,16 @@
-import Nav from "./components/Nav";
-import Main from "./components/Main";
+import { Routes, Route } from 'react-router-dom';
+import Archive from "./Archive";
+import Homepage from './components/Homepage';
 
 function App() {
+
   return (
-    <main>
-      <div className="grid lg:grid-cols-2 md:grid-cols2 sm:grid-cols1
-                      bg-background">
-        <div>
-        <Nav/>
-        </div>
-        <div>
-        <Main/>
-        </div>
-      </div>
-    </main>
+    <>
+    <Routes>
+        <Route path="/archive" element={<Archive />}></Route>
+        <Route path="/" element={<Homepage />}></Route>
+      </Routes>
+    </>
   )
 }
 
