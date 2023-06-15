@@ -3,14 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpotify, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const handleClick = (anchor) => () => {
-    const id = `${anchor}-section`;
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
+  const id = `${anchor}-section`;
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
   };
 
   function Nav() {
@@ -26,7 +26,7 @@ const handleClick = (anchor) => () => {
                             lg:text-xl md:text-lg text-base max-w-md">
                 Software engineer and designer. Building, learning, and
                 creating are my passions.</h2>
-              <ul className="text-turqoise lg:mt-10 md:mt-10 mt-6">
+              <ul className="text-turqoise lg:mt-10 md:mt-10 mt-6 font-semibold">
                 <nav>
                   <li className="mb-1">
                     <a className="hover:text-orange" onClick={handleClick("about")}
