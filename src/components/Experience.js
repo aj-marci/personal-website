@@ -33,7 +33,7 @@ function Experience() {
         className="container p-2 rounded hover:bg-groupHover
                     font-gotham lg:mb-16 md:mb-12 mb-8">
             <p className="text-darkcream lg:text-sm md:text-sm text-xs mb-1">{date}</p>
-            <p className="text-orange lg:text-base md:text-base text-sm mb-1">{title}</p>
+            <p className="text-lightcream lg:text-base md:text-base text-sm mb-1 font-semibold">{title}</p>
             <p className="text-darkcream lg:text-base md:text-base text-sm mb-1">{place}</p>
             <ul className="text-lightcream lg:text-sm md:text-sm text-xs mb-1">
                 <li>{point1}</li>

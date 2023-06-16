@@ -2,8 +2,6 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Footer from "./Footer";
-import { Link } from 'react-router-dom';
-import Archive from "../Archive";
 
 function Main() {
     return (

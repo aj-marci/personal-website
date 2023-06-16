@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Archive from "./Archive";
+import Archive from "./components/Archive";
 import Homepage from './components/Homepage';
 
 function App() {
