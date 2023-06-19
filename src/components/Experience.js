@@ -11,17 +11,17 @@ const experienceData = [
         date: "2020 - Current",
         title: "Senior Experience Manager, Marketing Associate",
         place: "GOBY",
-        point1: "",
-        point2: "",
-        point3: "",
+        point1: "Design marketing assets, manage Google Ads,Dental Ambassador accounts, built an Instagram Affiliate Program from scratch",
+        point2: "Responsible for all consumer CS, and eliminated the need for an additional CX hire",
+        point3: "D2C inventory forecasting and fulfillment oversight for 36 SKU’s",
     },
     {
         date: "2017 - 2020",
         title: "Co-founder & CEO",
         place: "CropShop",
-        point1: "",
-        point2: "",
-        point3: "",
+        point1: "Responsible for sales, finance, marketing, UI / UX",
+        point2: "Generated $60,000 in revenue, and raised $85,000 in Angel fund",
+        point3: "Y Combinator Startup School Graduate Summer 2019, 1st place winner of Endicott College’s “Spark Tank” pitch competition",
     },
 ]
 

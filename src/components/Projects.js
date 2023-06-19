@@ -27,7 +27,7 @@ function Projects() {
         {projectsData.map(({ image, title, description}) => (
         <div key={title} id="projects-section"
         className="container p-2 rounded hover:bg-groupHover
-                    font-gotham lg:mb-16 md:mb-12 mb-8 grid grid-cols-2">
+                    font-gotham lg:mb-16 md:mb-12 mb-8 grid grid-cols-2 gap-2">
         <div>
             <img className="w-auto mb-1 w-40"
             src={image} alt="project-screenshot"/>
