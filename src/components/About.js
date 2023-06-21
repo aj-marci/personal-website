@@ -5,7 +5,7 @@ function About() {
         className="lg:mb-24 md:mb-20 mb-8
         text-lightcream lg:text-base md:text-base text-xs max-w-md
         font-gotham">
-            <p className="lg:mb-2 md:mb-2 mb-1">Back in my senior year of college
+            <p className="lg:mb-2 md:mb-2 mb-1">In my senior year of college
                                                 I embarked on Co-founding
             <a href="https://www.endicott.edu/news-events/news/news-articles/2019/02/student-startup-living-proof-of-endicotts-entrepreneurial-spirit" target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> CropShop
@@ -27,7 +27,7 @@ function About() {
             <a href="https://drive.google.com/file/d/17-kFEWPdcecvuoqw3gPPr67_E8HcrVXR/view?usp=sharing"
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> Audry
-            </a>, and our Pup Roger.
+            </a> and our Pup Roger.
             </p>
         </div>
         </>

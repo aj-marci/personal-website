@@ -28,16 +28,16 @@ const handleClick = (anchor) => () => {
                 creating are my passions.</h2>
               <ul className="text-turqoise lg:mt-10 md:mt-10 mt-6 font-semibold">
                 <nav>
-                  <li className="mb-1">
-                    <a className="hover:text-orange" onClick={handleClick("about")}
+                  <li className="mb-1 hover:translate-x-1 hover:text-orange">
+                    <a onClick={handleClick("about")}
                       href="/#about-section">About</a>
                   </li>
-                  <li className="mb-1">
-                    <a className="hover:text-orange" onClick={handleClick("exp")}
+                  <li className="mb-1 hover:translate-x-1 hover:text-orange">
+                    <a onClick={handleClick("exp")}
                       href="/#exp-section">Experience</a>
                   </li>
-                  <li>
-                    <a className="hover:text-orange" onClick={handleClick("projects")}
+                  <li className="hover:translate-x-1 hover:text-orange">
+                    <a onClick={handleClick("projects")}
                       href="/#projects-section">Projects</a>
                   </li>
                   <div className="lg:mt-10 md:mt-10 mt-6">

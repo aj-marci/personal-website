@@ -5,19 +5,40 @@ import { Link } from 'react-router-dom';
 
 const archiveData = [
     {
+        date: "June. 2023",
+        name: "Personal Website",
+        url: "https://github.com/aj-marci/personal-website",
+        description: "My v1 personal website. Built with React.js and styled with Tailwind CSS. Colors inspired by America's Southwest.",
+    },
+    {
         date: "May, 2023",
-        name: "Capstone",
-        description: "meta capstone",
+        name: "Restaurant Homepage Template",
+        url: "https://github.com/aj-marci/capstone",
+        description: "Restaurant homepage template with ability to reserve a table. Built with React.js, styled with React-Bootstrap and JSX. Form validation with with Formik and Yup.",
     },
     {
         date: "April, 2023",
-        name: "React Registration Form",
-        description: "React form with client side validaiton using state.",
+        name: "App Registration Form",
+        url: "https://github.com/aj-marci/react-registration",
+        description: "Website registration form with client-side validaiton. Built with React.js, and styled with CSS and JSX.",
     },
     {
-        date: "June. 2023",
-        name: "Personal website",
-        description: "React website built with React.js and Tailwind CSS.",
+        date: "April, 2023",
+        name: "Calculator App",
+        url: "https://github.com/aj-marci/react-calcuator",
+        description: "A simple calculator app. Built with React.js, and styled with CSS and JSX.",
+    },
+    {
+        date: "March, 2023",
+        name: "Portfolio Website Template",
+        url: "https://github.com/aj-marci/portfolio",
+        description: "Desktop only, built with React.js, and styled with ChakraUI. Form validation with useFormik and Yup.",
+    },
+    {
+        date: "March, 2023",
+        name: "Original Restaurant Homepage Template",
+        url: "https://github.com/aj-marci/BASIC-HTML-CSS.",
+        description: "Desktop only, built with React.js, and styled with ChakraUI. Form validation with useFormik and Yup.",
     },
 ]
 
@@ -25,17 +46,22 @@ function Archive() {
     return (
         <>
         <div className="bg-background">
-        <button className="bg-background text-turqoise mb-8 mt-4 ml-1 hover:text-orange">
+        <button className="bg-background text-turqoise mb-8 mt-4 ml-2 hover:text-orange
+                            hover:-translate-x-1">
         <Link to="/">
             <FontAwesomeIcon icon={faArrowLeft} size="xl"/>
         </Link>
         </button>
         </div>
+        <div className="bg-background font-gotham pl-2 pb-8">
+            <h1 className="text-2xl font-semibold text-lightcream">Project Archive</h1>
+            <h className="text-sm text-darkcream">Click to view GitHub repo.</h>
+        </div>
         <div className="bg-background h-screen">
-        <div>
-        {archiveData.map(({ date, name, description}) => (
+        {archiveData.map(({ date, name, description, url}) => (
+        <a href={url} target="_blank" rel="noopener noreferrer">
         <div key={name} className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 gap-4
-        font-gotham hover:bg-groupHover lg:mb-8 md:mb-8 mb-4">
+        font-gotham hover:bg-groupHover lg:mb-8 md:mb-8 mb-4 ml-2">
         <div className="text-darkcream lg:col-span-1 lg:text-sm md:text-xs text-xs">
             <p>{date}</p>
         </div>
@@ -46,8 +72,8 @@ function Archive() {
         <p>{description}</p>
         </div>
         </div>
+        </a>
         ))}
-        </div>
         </div>
         </>
     );
