@@ -21,7 +21,7 @@ function About() {
             I decided to go all-in on coding with a Meta developer course through coursera.
             </p>
             <p>
-            Now I am a striving full-stack engineer obsessed with coding.
+            Now I am a striving full-time engineer obsessed with coding.
             When not at my computer, you can find me cooking, golfing, hiking,
             or anything else outside with my girlfriend
             <a href="https://drive.google.com/file/d/17-kFEWPdcecvuoqw3gPPr67_E8HcrVXR/view?usp=sharing"

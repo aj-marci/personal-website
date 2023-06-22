@@ -12,7 +12,7 @@ const archiveData = [
     },
     {
         date: "May, 2023",
-        name: "Restaurant Homepage Template",
+        name: "v2 Restaurant Homepage Template",
         url: "https://github.com/aj-marci/capstone",
         description: "Restaurant homepage template with ability to reserve a table. Built with React.js, styled with React-Bootstrap and JSX. Form validation with with Formik and Yup.",
     },
@@ -36,9 +36,9 @@ const archiveData = [
     },
     {
         date: "March, 2023",
-        name: "Original Restaurant Homepage Template",
+        name: "v1 Restaurant Homepage Template",
         url: "https://github.com/aj-marci/BASIC-HTML-CSS.",
-        description: "Desktop only, built with React.js, and styled with ChakraUI. Form validation with useFormik and Yup.",
+        description: "Classic responsive restaurant homepage template. Built with only HTML and CSS.",
     },
 ]
 
@@ -55,7 +55,7 @@ function Archive() {
         </div>
         <div className="bg-background font-gotham pl-2 pb-8">
             <h1 className="text-2xl font-semibold text-lightcream">Project Archive</h1>
-            <h className="text-sm text-darkcream">Click to view GitHub repo.</h>
+            <h className="text-sm text-darkcream">Click project to view GitHub repo.</h>
         </div>
         <div className="bg-background h-screen">
         {archiveData.map(({ date, name, description, url}) => (

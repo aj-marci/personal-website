@@ -10,8 +10,7 @@ module.exports = {
         'orange': '#EC9A20',
         'background': '#2C2C2C',
         'groupHover': '#464646',
-        'bdbg': '#007120',
-        'bdtxt': '#00FE47'
+        'bdbg': '#603900',
       },
       fontFamily: {
       'gotham': ['Gotham', 'sans-serif'],
