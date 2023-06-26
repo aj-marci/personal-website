@@ -11,6 +11,7 @@ module.exports = {
         'background': '#2C2C2C',
         'groupHover': '#464646',
         'bdbg': '#603900',
+        'formError': '#DB2B2B',
       },
       fontFamily: {
       'gotham': ['Gotham', 'sans-serif'],
