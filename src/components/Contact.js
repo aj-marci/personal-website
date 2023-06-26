@@ -27,7 +27,6 @@ function Contact() {
                     message:""}}
                   validationSchema={contactSchema}
                   onSubmit={(values, actions ) => {
-                    console.log(values);
                     alert("Thanks!");
                     actions.resetForm({
                         values: {
@@ -54,7 +53,6 @@ function Contact() {
                     <input
                     value={values.name}
                     onChange={handleChange}
-                    isInvalid={errors.name}
                     aria-label="enter your first name"
                     name="name"
                     className="text-base p-1 rounded bg-groupHover
@@ -68,7 +66,6 @@ function Contact() {
                     <input
                     value={values.email}
                     onChange={handleChange}
-                    isInvalid={errors.email}
                     aria-label="enter email address"
                     name="email"
                     className="text-base p-1 rounded bg-groupHover
@@ -83,7 +80,6 @@ function Contact() {
                     <textarea
                     value={values.message}
                     onChange={handleChange}
-                    isInvalid={errors.message}
                     aria-label="enter your first name"
                     name="message"
                     className="text-base p-1 rounded bg-groupHover
@@ -93,6 +89,7 @@ function Contact() {
                         font-semibold text-sm">{errors.message}</p>
                 </div>
                 <button
+                type="submit"
                 disabled={isSubmitting}
                 className="text-base text-turqoise hover:text-orange
                             font-semibold hover:translate-x-1">SEND</button>

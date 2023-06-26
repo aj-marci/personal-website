@@ -26,17 +26,17 @@ const handleClick = (anchor) => () => {
                             lg:text-xl md:text-lg text-base max-w-md">
                 Software engineer and designer. Building, learning, and
                 creating are my passions.</h2>
+              <nav>
               <ul className="text-turqoise lg:mt-10 md:mt-10 mt-6 font-semibold">
-                <nav>
-                  <li className="mb-1 hover:translate-x-1 hover:text-orange">
+                  <li className="mb-1 hover:translate-x-1 hover:text-orange lg:block md:block hidden">
                     <a onClick={handleClick("about")}
                       href="/#about-section">About</a>
                   </li>
-                  <li className="mb-1 hover:translate-x-1 hover:text-orange">
+                  <li className="mb-1 hover:translate-x-1 hover:text-orange lg:block md:block hidden">
                     <a onClick={handleClick("exp")}
                       href="/#exp-section">Experience</a>
                   </li>
-                  <li className="hover:translate-x-1 hover:text-orange">
+                  <li className="hover:translate-x-1 hover:text-orange lg:block md:block hidden">
                     <a onClick={handleClick("projects")}
                       href="/#projects-section">Projects</a>
                   </li>
@@ -54,8 +54,8 @@ const handleClick = (anchor) => () => {
                     <FontAwesomeIcon icon={faSpotify} size="xl"/>
                   </a>
                   </div>
-                </nav>
               </ul>
+              </nav>
           </div>
         </>
       );
