@@ -26,8 +26,16 @@ function Contact() {
                     email: "",
                     message:""}}
                   validationSchema={contactSchema}
-                  onSubmit={() => {
-                    Formik.resetForm();
+                  onSubmit={(values, actions ) => {
+                    console.log(values);
+                    alert("Thanks!");
+                    actions.resetForm({
+                        values: {
+                            name:"",
+                            email: "",
+                            message:""
+                        },
+                    });
                 }}
           >
                   {({
