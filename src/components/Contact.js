@@ -1,8 +1,11 @@
 import React from "react";
 import { Formik } from "formik";
 import * as Yup from 'yup';
+import { collection, addDoc, updateDoc, serverTimestamp } from "firebase/firestore";
+import db from "..";
 
 function Contact() {
+
 
     const contactSchema = Yup.object().shape({
         name: Yup.string()
@@ -15,6 +18,8 @@ function Contact() {
         .required('Required'),
       });
 
+
+
     return (
     <>
         <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-lightcream
@@ -26,7 +31,15 @@ function Contact() {
                     email: "",
                     message:""}}
                   validationSchema={contactSchema}
-                  onSubmit={(values, actions ) => {
+                  onSubmit={async (values, actions ) => {
+                    const docRef = await addDoc(collection(db, "messages"), {
+                        message: {values}
+                      });
+                    console.log("Document written with ID: ", docRef.id);
+                    // eslint-disable-next-line
+                    const updateTimestamp = await updateDoc(docRef, {
+                        timestamp: serverTimestamp()
+                    });
                     alert("Thanks!");
                     actions.resetForm({
                         values: {
