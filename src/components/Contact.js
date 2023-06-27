@@ -3,6 +3,9 @@ import { Formik } from "formik";
 import * as Yup from 'yup';
 import { collection, addDoc, updateDoc, serverTimestamp } from "firebase/firestore";
 import db from "..";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useState } from 'react';
 
 function Contact() {
 
@@ -18,6 +21,8 @@ function Contact() {
         .required('Required'),
       });
 
+      const successMessage = () => toast("Thank you!");
+      const [message, setMessage] = useState(false);
 
 
     return (
@@ -35,12 +40,11 @@ function Contact() {
                     const docRef = await addDoc(collection(db, "messages"), {
                         message: {values}
                       });
-                    console.log("Document written with ID: ", docRef.id);
+                    console.log("New message written with ID: ", docRef.id);
                     // eslint-disable-next-line
                     const updateTimestamp = await updateDoc(docRef, {
                         timestamp: serverTimestamp()
                     });
-                    alert("Thanks!");
                     actions.resetForm({
                         values: {
                             name:"",
@@ -104,8 +108,10 @@ function Contact() {
                 <button
                 type="submit"
                 disabled={isSubmitting}
+                onClick={!errors ? successMessage :null}
                 className="text-base text-turqoise hover:text-orange
                             font-semibold hover:translate-x-1">SEND</button>
+                <ToastContainer />
         </form>
         )}
         </Formik>
