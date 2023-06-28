@@ -8,6 +8,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import firebaseConfig from "./FirebaseConfig";
 import { getFirestore } from "firebase/firestore";
+import ScrollToTop from './Scroll';
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -18,6 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <ScrollToTop />
     <App />
     </BrowserRouter>
   </React.StrictMode>
@@ -27,5 +29,6 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
 
 export default db;
