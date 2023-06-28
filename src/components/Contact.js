@@ -5,6 +5,7 @@ import { collection, addDoc, updateDoc, serverTimestamp } from "firebase/firesto
 import db from "..";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '../App.css';
 
 function Contact() {
 
@@ -20,13 +21,13 @@ function Contact() {
         .required('Required'),
       });
 
-      const successMessage = () => toast.success('Thank you! Talk soon!', {
+      const successMessage = () => toast.success('Success! 🎉. Talk soon!', {
         position: "top-center",
-        autoClose: 5000,
+        autoClose: 2000,
         hideProgressBar: true,
-        closeOnClick: true,
+        closeButton: false,
         pauseOnHover: true,
-        draggable: true,
+        draggable: false,
         progress: undefined,
         theme: "light",
         className:"toast",
