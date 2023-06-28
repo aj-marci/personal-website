@@ -5,7 +5,6 @@ import { collection, addDoc, updateDoc, serverTimestamp } from "firebase/firesto
 import db from "..";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useState } from 'react';
 
 function Contact() {
 
@@ -21,8 +20,17 @@ function Contact() {
         .required('Required'),
       });
 
-      const successMessage = () => toast("Thank you!");
-      const [message, setMessage] = useState(false);
+      const successMessage = () => toast.success('Thank you! Talk soon!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        className:"toast",
+        });
 
 
     return (
@@ -108,7 +116,7 @@ function Contact() {
                 <button
                 type="submit"
                 disabled={isSubmitting}
-                onClick={!errors ? successMessage :null}
+                onClick={!errors.name && !errors.email && !errors.message ? successMessage :null}
                 className="text-base text-turqoise hover:text-orange
                             font-semibold hover:translate-x-1">SEND</button>
                 <ToastContainer />

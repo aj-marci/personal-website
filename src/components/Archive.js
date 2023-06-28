@@ -8,7 +8,7 @@ const archiveData = [
         date: "June. 2023",
         name: "Personal Website",
         url: "https://github.com/aj-marci/personal-website",
-        description: "My v1 personal website. Built with React.js and styled with Tailwind CSS. Colors inspired by America's Southwest.",
+        description: "My v1 personal website. Built with React.js and styled with Tailwind CSS. Contact form validation with Formik and Yup. Data stored in Firebase Cloud Firestore, and hosted on Firebase.",
     },
     {
         date: "May, 2023",

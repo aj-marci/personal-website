@@ -11,8 +11,8 @@ const projectsData = [
     {
         image: V1,
         title: "Personal Website",
-        description: "My v1 personal website. Inspired by Brittany Chiang. Updates deployed monthly.",
-        badge1: "React",
+        description: "My v1 personal website built with React.js. Updates deployed monthly.",
+        badge1: "Firebase",
         badge2: "Tailwind CSS",
     },
     {
@@ -25,7 +25,7 @@ const projectsData = [
     {
         image: Form,
         title: "Registration Form",
-        description: "A reusable web app registration form with client-side validation.",
+        description: "A reusable web-app registration form with client-side validation.",
         badge1: "React",
         badge2: "CSS",
     },
