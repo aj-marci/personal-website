@@ -73,7 +73,7 @@ function Contact() {
         <form
         noValidate
         onSubmit={handleSubmit}
-        className="font-gotham">
+        className="font-gotham lg:mr-0 md:mr-0 mr-4">
                 <div className="flex flex-col mb-2">
                     <label className="text-base text-darkcream mb-1">Your Name</label>
                     <input

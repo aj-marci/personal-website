@@ -9,6 +9,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const projectsData = [
     {
+        id: 0,
         image: V1,
         title: "Personal Website",
         description: "My v1 personal website built with React.js. Updates deployed monthly.",
@@ -16,6 +17,7 @@ const projectsData = [
         badge2: "Tailwind CSS",
     },
     {
+        id: 1,
         image: Capstone,
         title: "Restaurant Homepage Template",
         description: "Restaurant homepage template. This was my Meta Coursera course Capstone project.",
@@ -23,6 +25,7 @@ const projectsData = [
         badge2: "React-Bootstrap",
     },
     {
+        id: 2,
         image: Form,
         title: "Registration Form",
         description: "A reusable web-app registration form with client-side validation.",
@@ -34,8 +37,8 @@ const projectsData = [
 function Projects() {
     return (
         <>
-        {projectsData.map(({ image, title, description, badge1, badge2}) => (
-        <div key={title} id="projects-section"
+        {projectsData.map(({ id, image, title, description, badge1, badge2}) => (
+        <div key={id} id="projects-section"
         className="container font-gotham lg:mb-16 md:mb-12 mb-8
                     grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-2">
         <div>

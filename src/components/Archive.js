@@ -55,7 +55,7 @@ function Archive() {
         </div>
         <div className="bg-background font-gotham pl-2 pb-8">
             <h1 className="text-2xl font-semibold text-lightcream">Project Archive</h1>
-            <h className="text-sm text-darkcream">Click project to view GitHub repo.</h>
+            <h className="text-sm text-darkcream">Click a project to view its GitHub repo.</h>
         </div>
         <div className="bg-background h-screen">
         {archiveData.map(({ date, name, description, url}) => (

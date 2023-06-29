@@ -1,6 +1,6 @@
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpotify, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const handleClick = (anchor) => () => {
   const id = `${anchor}-section`;
@@ -17,7 +17,7 @@ const handleClick = (anchor) => () => {
       return (
         <>
           <div className="lg:w-1/2 md:w-1/2 sm:w-full lg:fixed lg:mt-20 md:mt-16 mt-16
-                          lg:ml-10 md:ml-8 ml-8
+                          lg:ml-20 md:ml-12 ml-8
                           font-gotham">
               <h1 className="text-lightcream lg:text-3xl md:text-2xl text-xl
                             lg:mb-2 md:mb-2 mb-1 font-semibold">
@@ -27,7 +27,7 @@ const handleClick = (anchor) => () => {
                 Software engineer and designer. Building, learning, and
                 creating are my passions.</h2>
               <nav>
-              <ul className="text-turqoise lg:mt-10 md:mt-10 mt-6 font-semibold">
+              <ul className="text-turqoise lg:mt-12 md:mt-12 mt-8 font-semibold">
                   <li className="mb-1 hover:translate-x-1 hover:text-orange lg:block md:block hidden">
                     <a onClick={handleClick("about")}
                       href="/#about-section">About</a>
@@ -40,7 +40,7 @@ const handleClick = (anchor) => () => {
                     <a onClick={handleClick("projects")}
                       href="/#projects-section">Projects</a>
                   </li>
-                  <div className="lg:mt-10 md:mt-10 mt-6">
+                  <div className="lg:mt-12 md:mt-12 mt-8">
                   <a href="mailto: abmarcinek@gmail.com" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange mr-2">
                     <FontAwesomeIcon icon={faEnvelope} size="xl"/>
@@ -49,9 +49,9 @@ const handleClick = (anchor) => () => {
                   className="text-turqoise hover:text-orange mr-2">
                     <FontAwesomeIcon icon={faGithub} size="xl"/>
                   </a>
-                  <a href="https://open.spotify.com/user/wp8iqfaytwv3zqmn80cabyvqs?si=2d1e11409d864f5b" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.linkedin.com/in/a-j-marcinek-318545131/" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange">
-                    <FontAwesomeIcon icon={faSpotify} size="xl"/>
+                    <FontAwesomeIcon icon={faLinkedin} size="xl"/>
                   </a>
                   </div>
               </ul>
