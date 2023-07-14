@@ -61,8 +61,8 @@ function Archive() {
         {archiveData.map(({ date, name, description, url}) => (
         <a href={url} target="_blank" rel="noopener noreferrer">
         <div key={name} className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 gap-4
-        font-gotham hover:bg-groupHover lg:mb-8 md:mb-8 mb-4 ml-2">
-        <div className="text-darkcream lg:col-span-1 lg:text-sm md:text-xs text-xs">
+        font-gotham hover:bg-groupHover lg:mb-8 md:mb-8 mb-4 ml-2 mr-2">
+        <div className="text-orange lg:col-span-1 lg:text-sm md:text-xs text-xs">
             <p>{date}</p>
         </div>
         <div className="text-lightcream lg:col-span-1 lg:text-lg font-semibold">

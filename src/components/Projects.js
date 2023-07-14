@@ -20,7 +20,7 @@ const projectsData = [
         id: 1,
         image: Capstone,
         title: "Restaurant Homepage Template",
-        description: "Restaurant homepage template. This was my Meta Coursera course Capstone project.",
+        description: "Restaurant homepage template. Meta Front-End Developer Capstone project.",
         badge1: "React",
         badge2: "React-Bootstrap",
     },
