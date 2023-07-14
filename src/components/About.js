@@ -1,3 +1,5 @@
+import Certif from "../code.meta.certif.pdf";
+
 function About() {
     return (
         <>
@@ -18,7 +20,12 @@ function About() {
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> content creation
             </a>, and UI / UX. In 2022
-            I decided to go all-in on coding with a Meta developer course through coursera.
+            I decided to go all-in on coding and
+            <a href={Certif}
+                target="_blank" rel="noopener noreferrer"
+                className="text-turqoise hover:text-orange font-semibold"> completed
+            </a> Meta's professional front-end
+            developer course through Coursera.
             </p>
             <p>
             Now I am a striving full-time engineer obsessed with coding.
