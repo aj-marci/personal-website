@@ -116,8 +116,8 @@ function Contact() {
                 </div>
                 <button
                 type="submit"
-                disabled={isSubmitting}
-                onClick={!errors.name && !errors.email && !errors.message ? successMessage :null}
+                disabled={errors.email && errors.name && errors.message}
+                onClick={Formik.touched ? successMessage :null}
                 className="text-base text-turqoise hover:text-orange
                             font-semibold hover:translate-x-1">SEND</button>
                 <ToastContainer />
