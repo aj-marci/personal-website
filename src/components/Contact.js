@@ -68,7 +68,7 @@ function Contact() {
                   errors,
                   handleChange,
                   handleSubmit,
-                  isSubmitting,
+                  dirty,
        }) => (
         <form
         noValidate
@@ -116,8 +116,8 @@ function Contact() {
                 </div>
                 <button
                 type="submit"
-                disabled={errors.email && errors.name && errors.message}
-                onClick={Formik.touched ? successMessage :null}
+                disabled={!dirty || errors.email || errors.name || errors.message}
+                onClick={successMessage}
                 className="text-base text-turqoise hover:text-orange
                             font-semibold hover:translate-x-1">SEND</button>
                 <ToastContainer />
