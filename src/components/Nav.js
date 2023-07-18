@@ -21,10 +21,10 @@ const handleClick = (anchor) => () => {
                           font-gotham">
               <h1 className="text-lightcream lg:text-3xl md:text-2xl text-xl
                             lg:mb-2 md:mb-2 mb-1 font-semibold">
-                Alex (AJ) Marcinek II</h1>
+                Alex Marcinek II</h1>
               <h2 className="text-lightcream
                             lg:text-xl md:text-lg text-base max-w-md">
-                Software engineer and designer. Building, learning, and
+                Engineer and designer. Building, learning, and
                 creating are my passions.</h2>
               <nav>
               <ul className="text-turqoise lg:mt-12 md:mt-12 mt-8 font-semibold">
