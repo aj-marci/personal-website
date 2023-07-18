@@ -15,10 +15,10 @@
   },
   "emulators": {
     "database": {
-      "port": 5000
+      "port": 5033
     },
     "hosting": {
-      "port": 9000
+      "port": 5033
     },
     "ui": {
       "enabled": true
