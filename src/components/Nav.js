@@ -24,7 +24,7 @@ const handleClick = (anchor) => () => {
                 Alex (AJ) Marcinek II</h1>
               <h2 className="text-lightcream
                             lg:text-xl md:text-lg text-base max-w-md">
-                Engineer and designer. Building, learning, and
+                Software engineer and designer. Building, learning, and
                 creating are my passions.</h2>
               <nav>
               <ul className="text-turqoise lg:mt-12 md:mt-12 mt-8 font-semibold">
