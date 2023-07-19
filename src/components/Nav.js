@@ -21,7 +21,7 @@ const handleClick = (anchor) => () => {
                           font-gotham">
               <h1 className="text-lightcream lg:text-3xl md:text-2xl text-xl
                             lg:mb-2 md:mb-2 mb-1 font-semibold">
-                Alex Marcinek II</h1>
+                Alex (AJ) Marcinek II</h1>
               <h2 className="text-lightcream
                             lg:text-xl md:text-lg text-base max-w-md">
                 Engineer and designer. Building, learning, and
