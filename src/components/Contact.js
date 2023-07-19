@@ -37,7 +37,7 @@ function Contact() {
     return (
     <>
         <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-lightcream
-                        text-2xl font-semibold">
+                        lg:text-xl md:text-xl text-base font-semibold">
             <h1>Drop Me a Line!</h1>
         </div>
         <Formik   initialValues={{
@@ -75,26 +75,30 @@ function Contact() {
         onSubmit={handleSubmit}
         className="font-gotham lg:mr-0 md:mr-0 mr-4">
                 <div className="flex flex-col mb-2">
-                    <label className="text-base text-darkcream mb-1">Your Name</label>
+                    <label className="text-base text-darkcream mb-1
+                    lg:text-base md:text-base text-sm">Your Name</label>
                     <input
                     value={values.name}
                     onChange={handleChange}
                     aria-label="enter your first name"
                     name="name"
-                    className="text-base p-1 rounded bg-groupHover
+                    className="lg:text-base md:text-base text-sm
+                    p-1 rounded bg-groupHover
                     focus:outline-none focus:ring-none text-darkcream"
                     placeholder="Bobby McGee"></input>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.name}</p>
                 </div>
                 <div className="flex flex-col mb-2">
-                    <label className="text-base text-darkcream mb-1">Email</label>
+                    <label className="text-base text-darkcream mb-1
+                    lg:text-base md:text-base text-sm">Email</label>
                     <input
                     value={values.email}
                     onChange={handleChange}
                     aria-label="enter email address"
                     name="email"
-                    className="text-base p-1 rounded bg-groupHover
+                    className="lg:text-base md:text-base text-sm
+                    p-1 rounded bg-groupHover
                     focus:outline-none focus:ring-none text-darkcream"
                     placeholder="janis@joplin.com"
                     type="email"></input>
@@ -102,13 +106,15 @@ function Contact() {
                         font-semibold text-sm">{errors.email}</p>
                 </div>
                 <div className="flex flex-col mb-2">
-                    <label className="text-base text-darkcream mb-1">Message</label>
+                    <label className="text-base text-darkcream mb-1
+                    lg:text-base md:text-base text-sm">Message</label>
                     <textarea
                     value={values.message}
                     onChange={handleChange}
                     aria-label="enter your first name"
                     name="message"
-                    className="text-base p-1 rounded bg-groupHover
+                    className="lg:text-base md:text-base text-sm
+                    p-1 rounded bg-groupHover
                     focus:outline-none focus:ring-none text-darkcream"
                     placeholder="Want to write code for us?"></textarea>
                     <p className="font-gotham text-formError
