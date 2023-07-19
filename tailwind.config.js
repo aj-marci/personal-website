@@ -14,7 +14,7 @@ module.exports = {
         'formError': '#DB2B2B',
       },
       fontFamily: {
-      'gotham': ['Gotham', 'sans-serif'],
+      'gotham': ['Ubuntu', 'sans-serif'],
       },
     },
   },
