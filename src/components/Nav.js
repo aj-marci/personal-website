@@ -25,7 +25,7 @@ const handleClick = (anchor) => () => {
               <h2 className="text-lightcream
                             lg:text-xl md:text-lg text-base max-w-md">
                 Software engineer and designer. Building, learning, and
-                creating are my passions.</h2>
+                the outdoors are my passions.</h2>
               <nav>
               <ul className="text-turqoise lg:mt-12 md:mt-12 mt-8 font-semibold">
                   <li className="mb-1 hover:translate-x-1 hover:text-orange lg:block md:block hidden">
