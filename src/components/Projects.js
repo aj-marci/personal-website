@@ -53,9 +53,9 @@ function Projects() {
                             lg:text-sm md:text-sm text-xs
                             mb-3 justify-right">{description}</p>
             <p className="inline-flex items-center justify-center rounded bg-bdbg text-orange
-                            text-xs px-2 py-1 mr-2 font-semibold">{badge1}</p>
+                            text-xs px-1 py-1 mr-1 font-semibold font-inter">{badge1}</p>
             <p className="inline-flex items-center justify-center rounded bg-bdbg text-orange
-                            text-xs px-2 py-1 mr-2 font-semibold">{badge2}</p>
+                            text-xs px-1 py-1 mr-1 font-semibold font-inter">{badge2}</p>
         </div>
         </div>
         ))}

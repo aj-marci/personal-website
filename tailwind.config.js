@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
       'gotham': ['Ubuntu', 'sans-serif'],
+      'inter': ['Gotham', 'sans-serif'],
       },
     },
   },
