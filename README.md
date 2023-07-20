@@ -1,7 +1,3 @@
-personal website
+Built with React.js, styled with Tailwind CSS, form handling and validation with Formik and Yup.
 
-react, tailwind
-
-npm i formik
-
-npm i yup
+Color scheme inspired by America's Southwest.
