@@ -1,6 +1,7 @@
 .toast {
-    font-family: gotham;
-    background-color: #464646;
-    color: #E2D0B4;
+    font-family: 'Ubuntu, 'sans-serif;
+    background-color: rgb(159,255,186,0.9);
+    color: #464646;
     text-align: center;
+    font-size: 1.25 rem;
 }

@@ -23,7 +23,7 @@ function Contact() {
 
       const successMessage = () => toast.success('Success! 🎉. Talk soon!', {
         position: "top-center",
-        autoClose: 2000,
+        autoClose: 2500,
         hideProgressBar: true,
         closeButton: false,
         pauseOnHover: true,
