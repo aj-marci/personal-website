@@ -1,4 +1,5 @@
 import Certif from "../code.meta.certif.pdf";
+import Content from "../content.creation.pdf";
 
 function About() {
     return (
@@ -16,7 +17,7 @@ function About() {
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
             For 4 years my focus was business ops,
-            <a href="https://docs.google.com/presentation/d/1j3Tkq6wy_KZ2_9rG1Tycs2-GVbKqZmA8QNWgBQyjbuQ/edit?usp=sharing"
+            <a href={Content}
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> content creation
             </a>, and UI / UX. In 2022
