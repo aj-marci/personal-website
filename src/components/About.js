@@ -1,5 +1,6 @@
 import Certif from "../code.meta.certif.pdf";
 import Content from "../content.creation.pdf";
+import AudRog from "../aud.rog.pdf";
 
 function About() {
     return (
@@ -32,7 +33,7 @@ function About() {
             Now I am a striving full-time engineer obsessed with coding.
             When not at my computer, you can find me cooking, golfing, hiking,
             or anything else outside with my girlfriend
-            <a href="https://drive.google.com/file/d/17-kFEWPdcecvuoqw3gPPr67_E8HcrVXR/view?usp=sharing"
+            <a href={AudRog}
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> Audry
             </a> and our Pup Roger.
