@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const archiveData = [
     {
         date: "July, 2023",
-        name: "Admin Dashboard",
-        description: "In progress. Fetching contact form data and google analytics data in pleasant UI."
+        name: "Personal Spotify App",
+        description: "In progress. full stack web app to visualize personalized Spotify data with the help of Node.js, React, Styled Components, and the Spotify Web API."
     },
     {
         date: "June. 2023",
