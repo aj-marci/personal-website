@@ -7,7 +7,12 @@ const archiveData = [
     {
         date: "July, 2023",
         name: "Personal Spotify App",
-        description: "In progress. full stack web app to visualize personalized Spotify data with the help of Node.js, React, Styled Components, and the Spotify Web API."
+        description: "In progress. Full stack web app to visualize personalized Spotify data with the help of Express, Node.js, React, Styled Components, and the Spotify Web API."
+    },
+    {
+        date: "July, 2023",
+        name: "Admin Dashboard",
+        description: "In progress. Fetching contact form data, app analytics in a pleasant UI."
     },
     {
         date: "June. 2023",
