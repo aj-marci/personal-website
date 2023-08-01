@@ -7,7 +7,7 @@ const experienceData = [
         id: 0,
         date: "2022 - Current",
         title: "Aspiring Full-time Software Engineer",
-        place: "Maybe you?",
+        place: "Freelance",
         point1: "Meta Professionally Certified",
         point2: "HTML, JavaScript (JS6), CSS",
         point3: "React.js, Bootstrap, Tailwind CSS, Formik, Yup.",
