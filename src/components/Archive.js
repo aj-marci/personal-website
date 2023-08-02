@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const archiveData = [
     {
-        date: "July, 2023",
+        date: "August, 2023",
         name: "Personal Spotify App",
         description: "In progress. Full stack web app to visualize personalized Spotify data with the help of Express, Node.js, React, Styled Components, and the Spotify Web API."
     },
@@ -67,7 +67,7 @@ function Archive() {
             <h1 className="text-2xl font-semibold text-lightcream">Project Archive</h1>
             <h className="text-sm text-darkcream">Click a project to view its GitHub repo.</h>
         </div>
-        <div className="bg-background h-screen">
+        <div className="bg-background lg:h-screen lg:pb-0 pb-8">
         {archiveData.map(({ date, name, description, url}) => (
         <a href={url} target="_blank" rel="noopener noreferrer">
         <div key={name} className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 gap-4
