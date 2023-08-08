@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../v4.resume.pdf";
+import Resume from "../v5.resume.pdf";
 
 const experienceData = [
     {
