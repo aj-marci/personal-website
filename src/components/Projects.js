@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "./images/form.png";
+import Spotify from "./images/spotify.png";
 import V1 from "./images/v1.png";
 import Capstone from "./images/capstone.png";
 import { Link } from 'react-router-dom';
@@ -10,6 +10,14 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const projectsData = [
     {
         id: 0,
+        image: Spotify,
+        title: "Spotify App",
+        description: "Full stack web app to visualize personalized Spotify data.",
+        badge1: "Node.js",
+        badge2: "REST",
+    },
+    {
+        id: 1,
         image: V1,
         title: "Personal Website",
         description: "My v1 personal website built with React.js. Updates deployed regularly.",
@@ -17,20 +25,12 @@ const projectsData = [
         badge2: "Tailwind CSS",
     },
     {
-        id: 1,
+        id: 2,
         image: Capstone,
         title: "Restaurant Homepage Template",
         description: "Restaurant homepage template. Meta Front-End Developer Capstone project.",
         badge1: "React",
         badge2: "React-Bootstrap",
-    },
-    {
-        id: 2,
-        image: Form,
-        title: "Registration Form",
-        description: "A reusable web-app registration form with client-side validation.",
-        badge1: "React",
-        badge2: "CSS",
     },
 ]
 
