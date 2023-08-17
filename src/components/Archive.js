@@ -8,7 +8,7 @@ const archiveData = [
         date: "August, 2023",
         name: "Personal Spotify App",
         url: "https://github.com/aj-marci/spotify-app",
-        description: "In progress. Full stack web app to visualize personalized Spotify data with the help of Express, Node.js, React, Styled Components, and the Spotify Web API."
+        description: "Full stack web app to visualize personalized Spotify data with the help of Express, Node.js, React, Styled Components, and the Spotify Web API."
     },
     {
         date: "July, 2023",
