@@ -25,9 +25,10 @@ const handleClick = (anchor) => () => {
               <h2 className="text-lightcream
                             lg:text-xl md:text-lg text-base max-w-md">
                 Software engineer specialized in
-                front-end development with React.js.</h2>
+                front end development with React.</h2>
               <nav>
-              <ul className="text-turqoise lg:mt-12 md:mt-12 mt-8 font-semibold">
+              <ul className="text-turqoise font-semibold">
+                <div className="lg:mt-36 md:mt-12 mt-8 lg:text-xl md:text-xl text-base">
                   <li className="mb-1 hover:translate-x-1 hover:text-orange lg:block md:block hidden">
                     <a onClick={handleClick("about")}
                       href="/#about-section">About</a>
@@ -40,18 +41,19 @@ const handleClick = (anchor) => () => {
                     <a onClick={handleClick("projects")}
                       href="/#projects-section">Projects</a>
                   </li>
-                  <div className="lg:mt-12 md:mt-12 mt-8">
+                  </div>
+                  <div className="lg:mt-36 md:mt-12 mt-8 lg:text-4xl md:text-4xl text-2xl">
                   <a href="mailto: abmarcinek@gmail.com" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange mr-2">
-                    <FontAwesomeIcon icon={faEnvelope} size="xl"/>
+                    <FontAwesomeIcon icon={faEnvelope}/>
                   </a>
                   <a href="https://github.com/aj-marci" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange mr-2">
-                    <FontAwesomeIcon icon={faGithub} size="xl"/>
+                    <FontAwesomeIcon icon={faGithub}/>
                   </a>
                   <a href="https://www.linkedin.com/in/a-j-marcinek-318545131/" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange">
-                    <FontAwesomeIcon icon={faLinkedin} size="xl"/>
+                    <FontAwesomeIcon icon={faLinkedin}/>
                   </a>
                   </div>
               </ul>
