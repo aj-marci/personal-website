@@ -28,7 +28,7 @@ const handleClick = (anchor) => () => {
                 front end development with React.</h2>
               <nav>
               <ul className="text-turqoise font-semibold">
-                <div className="lg:mt-36 md:mt-12 mt-8 lg:text-xl md:text-xl text-base">
+                <div className="lg:mt-36 md:mt-12 mt-8 lg:text-xl md:text-base text-base">
                   <li className="mb-1 hover:translate-x-1 hover:text-orange lg:block md:block hidden">
                     <a onClick={handleClick("about")}
                       href="/#about-section">About</a>
@@ -42,7 +42,7 @@ const handleClick = (anchor) => () => {
                       href="/#projects-section">Projects</a>
                   </li>
                   </div>
-                  <div className="lg:mt-36 md:mt-12 mt-8 lg:text-4xl md:text-4xl text-2xl">
+                  <div className="lg:mt-36 md:mt-12 mt-8 lg:text-4xl md:text-2xl text-2xl">
                   <a href="mailto: abmarcinek@gmail.com" target="_blank" rel="noopener noreferrer"
                   className="text-turqoise hover:text-orange mr-2">
                     <FontAwesomeIcon icon={faEnvelope}/>
