@@ -8,12 +8,14 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import firebaseConfig from "./FirebaseConfig";
 import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 import ScrollToTop from './Scroll';
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
+export const auth = getAuth(app);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

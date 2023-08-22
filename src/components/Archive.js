@@ -13,7 +13,7 @@ const archiveData = [
     {
         date: "July, 2023",
         name: "Admin Dashboard",
-        description: "In progress. Fetching contact form data, app analytics in a pleasant UI."
+        description: "Login page with Firebase authentication. Fetching contact form data, app analytics still in progress."
     },
     {
         date: "June. 2023",
