@@ -3,7 +3,10 @@ import { auth } from "../index.js";
 import React, { useState } from 'react';
 
 const Login = () => {
-const [email, setEmail] = useState("");
+  const [email, setEmail] = useState({
+    value: "",
+    isTouched: false,
+  });
 const [password, setPassword] = useState("");
 
 const onLogin = (e) => {
@@ -18,6 +21,7 @@ const onLogin = (e) => {
   .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
+      alert("Not an Admin, sorry! Contact for permission.")
       console.log(errorCode, errorMessage)
   });
 
@@ -48,7 +52,7 @@ const onLogin = (e) => {
           <div className="ml-12">
           <button className="hover:text-turqoise rounded
                 border-2 border-orange px-4 py-2 hover:border-turqoise"
-          type="submit">Login</button>
+                type="submit">Login</button>
           </div>
         </form>
         </div>
