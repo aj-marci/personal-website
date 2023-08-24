@@ -13,7 +13,8 @@ const archiveData = [
     {
         date: "July, 2023",
         name: "Admin Dashboard",
-        description: "Login page with Firebase authentication. Fetching contact form data, app analytics still in progress."
+        url: "https://ajmarci.com/admin",
+        description: "Login page with Firebase authentication. Fetching contact form data and app analytics into UI still in progress."
     },
     {
         date: "June. 2023",
@@ -66,7 +67,7 @@ function Archive() {
         </div>
         <div className="bg-background font-gotham pl-2 pb-8">
             <h1 className="text-2xl font-semibold text-lightcream">Project Archive</h1>
-            <h className="text-sm text-darkcream">Click a project to view its GitHub repo.</h>
+            <h className="text-sm text-darkcream">Click a project to view code or live app.</h>
         </div>
         <div className="bg-background lg:h-screen lg:pb-0 pb-8">
         {archiveData.map(({ date, name, description, url}) => (

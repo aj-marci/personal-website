@@ -1,6 +1,7 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../index.js";
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [email, setEmail] = useState({
@@ -49,11 +50,15 @@ const onLogin = (e) => {
                   onChange={(e )=> {
                     setPassword(e.target.value)}}/>
           </div>
-          <div className="ml-12">
+          <div className="ml-11">
           <button className="hover:text-turqoise rounded
-                border-2 border-orange px-4 py-2 hover:border-turqoise"
+                border-2 border-orange px-4 py-2 hover:border-turqoise mb-4"
                 type="submit">Login</button>
           </div>
+          <Link to="/"
+                className="font-gotham text-orange
+                hover:text-turqoise text-sm ml-6">Go To Home Page
+          </Link>
         </form>
         </div>
         </>
