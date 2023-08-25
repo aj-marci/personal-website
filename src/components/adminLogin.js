@@ -97,18 +97,3 @@ const Login = () => {
 
 
 export default Login;
-/*  e.preventDefault();
-  signInWithEmailAndPassword(auth, email, password)
-  .then((userCredential) => {
-      // Signed in
-      const user = userCredential.user;
-      localStorage.setItem('AJadminEmail', email);
-      window.location.reload();
-  })
-  .catch((error) => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-      alert("Not an Admin, sorry! Contact for permission.")
-      console.log(errorCode, errorMessage)
-  });*/
-
