@@ -12,7 +12,6 @@ const Admin = () => {
   onAuthStateChanged(auth, (user) => {
     if (user) {
       setLoggedIn(true);
-      // ...
     } else {
       console.log("signed out")
     }
@@ -47,9 +46,7 @@ const Admin = () => {
           });
       })
   }
-// right now on login, user json data, and uid is being console logged
-// need to figure out first part of ternary to access if logged in
-//if logged in, mapped data, if not, login component
+// need to work on mapping contact form data
   return (
     <>
         { loggedIn ? (
