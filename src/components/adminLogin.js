@@ -26,7 +26,7 @@ const Login = () => {
                     .then((userCredential) => {
                         // Signed in
                         const user = userCredential.user;
-                        localStorage.setItem('AJadminEmail', values.email);
+                        console.log(user);
                         window.location.reload();
                     })
                     .catch((error) => {
