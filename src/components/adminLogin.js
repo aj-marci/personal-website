@@ -1,6 +1,6 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../index.js";
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Formik } from "formik";
 import * as Yup from 'yup';
@@ -26,8 +26,6 @@ const Login = () => {
                     .then((userCredential) => {
                         // Signed in
                         const user = userCredential.user;
-                        console.log(user);
-                        window.location.reload();
                     })
                     .catch((error) => {
                         const errorCode = error.code;
