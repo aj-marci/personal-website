@@ -38,7 +38,7 @@ function Contact() {
     <>
         <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-lightcream
                         lg:text-xl md:text-xl text-base font-semibold">
-            <h1>Drop Me a Line!</h1>
+            <h1>Contact</h1>
         </div>
         <Formik   initialValues={{
                     name:"",
