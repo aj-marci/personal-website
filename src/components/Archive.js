@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 
 const archiveData = [
     {
+        date: "September, 2023",
+        name: "Admin Dashboard",
+        url: "https://ajmarci.com/admin",
+        description: "Login page with Firebase authentication. Fetching contact form data and app analytics into UI in progress."
+    },
+    {
         date: "August, 2023",
         name: "Personal Spotify App",
         url: "https://github.com/aj-marci/spotify-app",
         description: "Full stack web app to visualize personalized Spotify data with the help of Express, Node.js, React, Styled Components, and the Spotify Web API."
     },
     {
-        date: "July, 2023",
-        name: "Admin Dashboard",
-        url: "https://ajmarci.com/admin",
-        description: "Login page with Firebase authentication. Fetching contact form data and app analytics into UI still in progress."
-    },
-    {
         date: "June. 2023",
         name: "Personal Website",
         url: "https://github.com/aj-marci/personal-website",
-        description: "My v1 personal website. Built with React.js and styled with Tailwind CSS. Contact form validation with Formik and Yup. Data stored in Firebase, and hosted on Firebase.",
+        description: "My v1 personal website. Built with React.js and styled with TailwindCSS. Firebase used for database, hosting, and auth. Updates deployed with GitHub Actions",
     },
     {
         date: "May, 2023",
