@@ -24,8 +24,7 @@ const handleClick = (anchor) => () => {
                 Alex (AJ) Marcinek II</h1>
               <h2 className="text-lightcream
                             lg:text-xl md:text-lg text-base max-w-md">
-                Software engineer specialized in
-                front end development with React.</h2>
+                Software engineer with diverse STEM and business background.</h2>
               <nav>
               <ul className="text-turqoise font-semibold">
                 <div className="lg:mt-36 md:mt-12 mt-8 lg:text-xl md:text-base text-base">

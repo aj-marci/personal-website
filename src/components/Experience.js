@@ -8,9 +8,9 @@ const experienceData = [
         date: "2022 - Current",
         title: "Software Engineer",
         place: "Freelance",
-        point1: "Meta Professionally Certified",
-        point2: "HTML, JavaScript (JS6), CSS",
-        point3: "React, Node.js, Tailwind CSS, Firebase, RESTful API's.",
+        point1: "Full stack engineer specialized in Frontend with React.",
+        point2: "Meta Certified Frontend Developer.",
+        point3: "Click View All Projects below to see full project archive.",
     },
     {
         id: 1,
