@@ -8,7 +8,7 @@ const archiveData = [
         date: "September, 2023",
         name: "Admin Dashboard",
         url: "https://ajmarci.com/admin",
-        description: "Login with Firebase authentication, fetched contact form data in pleasant UI. Visualizing Google Analytics data with v4 API, OAuth and Recharts in progress."
+        description: "Login with Firebase authentication, fetched contact form data in pleasant UI. Visualizing Google Analytics data with v4 API, OAuth, and Recharts in progress."
     },
     {
         date: "August, 2023",
