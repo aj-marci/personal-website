@@ -8,13 +8,13 @@ const archiveData = [
         date: "September, 2023",
         name: "Admin Dashboard",
         url: "https://ajmarci.com/admin",
-        description: "Login page with Firebase authentication. Fetching contact form data and app analytics into UI in progress."
+        description: "Login with Firebase authentication, fetched contact form data in pleasant UI. Visualizing Google Analytics data with v4 API, OAuth and Recharts in progress."
     },
     {
         date: "August, 2023",
         name: "Personal Spotify App",
         url: "https://github.com/aj-marci/spotify-app",
-        description: "Full stack web app to visualize personalized Spotify data with the help of Express, Node.js, React, Styled Components, and the Spotify Web API."
+        description: "Full stack web app to visualize my Spotify data with the help of Express, Node.js, React, Styled Components, and the Spotify Web API."
     },
     {
         date: "June. 2023",
