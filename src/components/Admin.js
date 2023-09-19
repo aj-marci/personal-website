@@ -29,7 +29,6 @@ function Admin() {
     });
   }
 
-
   useEffect(()=>{
     let mounted = true
     getDocs(collection(db, "messages"))
@@ -43,7 +42,7 @@ function Admin() {
         }})
         return () => mounted = false
 },[loading])
-// need to work on mapping contact form data
+
   return (
     <>
         { loggedIn ? (
@@ -52,13 +51,24 @@ function Admin() {
         <div className="text-orange">
         {
         formData.map((formData,i)=>(
-            <p key={i} className="text-turqoise">
-                {formData.id}
-            </p>
+            <div key={i}
+              className="ml-4 hover:bg-groupHover
+                grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 gap-4">
+              <div className="lg:col-span-1">
+                {formData.message.values.name}
+              </div>
+              <div className="lg:col-span-1 text-turqoise">
+                {formData.message.values.email}
+              </div>
+              <div className="lg:col-span-3 text-lightcream">
+                "{formData.message.values.message}"
+              </div>
+            </div>
         ))
     }
         </div>
-        <button onClick={handleLogout} className="text-orange">Logout</button>
+        <button onClick={handleLogout}
+          className="text-orange ml-4 mt-8 hover:text-turqoise">Logout</button>
         </div>
           ) : (
         <Login />
