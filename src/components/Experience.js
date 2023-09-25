@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../v.10.resume.pdf";
+import Resume from "../resume.v11.pdf";
 
 const experienceData = [
     {
@@ -10,25 +10,25 @@ const experienceData = [
         place: "Freelance",
         point1: "Full stack engineer specialized in Frontend with React.",
         point2: "Meta Certified Frontend Developer.",
-        point3: "Click View All Projects below to see full project archive.",
+        point3: "Click 'View All Projects' below to see full project archive.",
     },
     {
         id: 1,
         date: "2020 - Current",
         title: "Senior Experience Manager, Marketing Associate",
         place: "GOBY",
-        point1: "Design marketing assets, manage paid and unpaid consumer marketing channels.",
-        point2: "Responsible for all consumer CS, and eliminated the need for an additional CX hire.",
-        point3: "All D2C inventory forecasting and fulfillment oversight.",
+        point1: "Design marketing assets.",
+        point2: "Optimize D2C customer experience and marketing channels.",
+        point3: "Analyze D2C inventory forecasting and fulfillment.",
     },
     {
         id: 2,
         date: "2017 - 2020",
         title: "Co-founder & CEO",
         place: "CropShop",
-        point1: "Responsible for sales, finance, marketing, UI / UX.",
-        point2: "Generated $60,000 in revenue, and raised $85,000 in Angel funds.",
-        point3: "Y Combinator Startup School Graduate Summer 2019, 1st place winner of Endicott College’s pitch competition.",
+        point1: "Led sales, finance, marketing, UI / UX.",
+        point2: "Executed YoY revenue growth.",
+        point3: "Won 1st place at Endicott College’s startup pitch competition.",
     },
 ]
 
