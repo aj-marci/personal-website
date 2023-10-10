@@ -27,10 +27,10 @@ function About() {
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> completed
             </a> Meta's professional front-end
-            developer course through Coursera.
+            developer course.
             </p>
             <p>
-            Now I am a striving full-time engineer obsessed with coding.
+            Now I am a full stack engineer obsessed with coding.
             When not at my computer, you can find me cooking, golfing, hiking,
             or anything else outside with my girlfriend
             <a href={AudRog}

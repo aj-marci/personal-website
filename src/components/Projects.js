@@ -1,7 +1,7 @@
 import React from "react";
 import Spotify from "./images/spotify.png";
 import V1 from "./images/v1.png";
-import Capstone from "./images/capstone.png";
+import NASA from "./images/NASA..png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -10,27 +10,27 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const projectsData = [
     {
         id: 0,
-        image: Spotify,
-        title: "Spotify App",
-        description: "Full stack web app to visualize personalized Spotify data.",
-        badge1: "Node.js",
-        badge2: "REST",
+        image: NASA,
+        title: "Visualized NASA APOD API Data",
+        description: "Frontend deployed on Vercel, backend deployed on Heroku.",
+        badge1: "React",
+        badge2: "MongoDB",
     },
     {
         id: 1,
+        image: Spotify,
+        title: "Spotify App",
+        description: "Full stack web app to visualize personalized Spotify data.",
+        badge1: "Express.js",
+        badge2: "Spotify Web API",
+    },
+    {
+        id: 2,
         image: V1,
         title: "Personal Website",
         description: "My v1 personal website built with React.js. Updates deployed regularly.",
         badge1: "Firebase",
         badge2: "Tailwind CSS",
-    },
-    {
-        id: 2,
-        image: Capstone,
-        title: "Restaurant Homepage Template",
-        description: "Restaurant homepage template. Meta Front-End Developer Capstone project.",
-        badge1: "React",
-        badge2: "React-Bootstrap",
     },
 ]
 
@@ -42,7 +42,7 @@ function Projects() {
         className="container font-gotham lg:mb-16 md:mb-12 mb-8
                     grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-2">
         <div>
-            <img className="p-2 bg-groupHover w-auto mb-1 w-40 rounded"
+            <img className="p-1 bg-bdbg w-auto mb-1 w-40 rounded"
             src={image} alt="project-screenshot"/>
         </div>
         <div>
