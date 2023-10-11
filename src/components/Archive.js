@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const archiveData = [
     {
         date: "October, 2023",
-        name: "NASA APOD Web App",
+        name: "NASA APOD API",
         url: "https://nasa-backend-nine.vercel.app",
-        description: "React frontend styled with TailwindCSS and deployed on Vercel. Express.js server, user credentials with MongoDB and Google OAuth deployed on Heroku.  "
+        description: "View a new NASA astronomy image daily. React frontend styled with TailwindCSS, deployed on Vercel. Express.js, Node.js, and MongoDB backend deployed on Heroku."
     },
     {
         date: "September, 2023",
