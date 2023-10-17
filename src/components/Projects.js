@@ -43,14 +43,6 @@ const projectsData = [
         badge1: "ChakraUI",
         badge2: "React",
     },
-    {
-        id: 4,
-        image: Form,
-        title: "Registration Form Template",
-        description: "React registration form with client-side validation.",
-        badge1: "CSS",
-        badge2: "JSX",
-    },
 ]
 
 function Projects() {

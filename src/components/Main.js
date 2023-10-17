@@ -11,6 +11,7 @@ function Main() {
                        ml-8 mt-8 md:mt-8 mr-4 lg:mt-20">
           <About />
           <Projects />
+          <Experience />
           <Contact />
           <Footer />
         </div>
