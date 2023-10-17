@@ -11,6 +11,12 @@ const archiveData = [
         description: "View a new NASA astronomy image daily. React frontend styled with TailwindCSS, deployed on Vercel. Express.js, Node.js, and MongoDB backend deployed on Heroku."
     },
     {
+        date: "October, 2023",
+        name: "Metaphor Search API",
+        url: "https://github.com/aj-marci/metaphor-api",
+        description: "Fetched and rendered the top 2023 Ryder Cup articles using the Metaphor AI Search API. React frontend with Express.js and Node.js backend."
+    },
+    {
         date: "September, 2023",
         name: "Admin Dashboard",
         url: "https://ajmarci.com/admin",
