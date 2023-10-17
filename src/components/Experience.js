@@ -16,7 +16,7 @@ function Experience() {
           <li className="mb-10 ml-4">
               <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
               <p className="text-sm italic">2022</p>
-              <p className="font-semibold">Certified Professional Frontend Developer from Meta.</p>
+              <p className="font-semibold lg:text-base md:text-base text-sm">Certified Professional Frontend Developer from Meta.</p>
           </li>
           <li className="mb-10 ml-4">
               <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
