@@ -38,7 +38,11 @@ const handleClick = (anchor) => () => {
                   </li>
                   <li className="hover:translate-x-1 hover:text-orange lg:block md:block hidden">
                     <a onClick={handleClick("experience")}
-                      href="/#exp-section">Education</a>
+                      href="/#career-section">Career</a>
+                  </li>
+                  <li className="hover:translate-x-1 hover:text-orange lg:block md:block hidden">
+                    <a onClick={handleClick("experience")}
+                      href="/#skills-section">Skills</a>
                   </li>
                   </div>
                   <div className="lg:mt-36 md:mt-12 mt-8 lg:text-4xl md:text-2xl text-2xl">

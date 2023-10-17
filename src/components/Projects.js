@@ -3,11 +3,9 @@ import Spotify from "./images/spotify.png";
 import V1 from "./images/v1.png";
 import NASA from "./images/NASA..png";
 import Capstone from "./images/capstone.png";
-import Form from "./images/form.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../aj.resume.pdf";
 
 
 const projectsData = [
@@ -49,12 +47,13 @@ function Projects() {
     return (
         <>
         <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-lightcream
-                        lg:text-xl md:text-xl text-base font-semibold">
+                        lg:text-xl md:text-xl text-base font-semibold"
+                        id="projects-section">
             <h1>Projects</h1>
         </div>
         {projectsData.map(({ id, image, title, description, badge1, badge2}) => (
-        <div key={id} id="projects-section"
-        className="container font-gotham lg:mb-16 md:mb-12 mb-8
+        <div key={id}
+        className="container font-gotham lg:mb-8 md:mb-8 mb-4
                     grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-2">
         <div>
             <img className="p-1 bg-bdbg w-auto mb-1 w-40 rounded"
@@ -81,14 +80,6 @@ function Projects() {
                 View All Projects <FontAwesomeIcon className="ml-1"icon={faArrowRight} size="lg" />
             </Link>
         </button>
-        </div>
-        <div className="hover:translate-x-1 font-gotham font-semibold
-                text-turqoise hover:text-orange lg:mt-8 md:mt-8 mt-4">
-             <a href={Resume}
-            target="_blank"
-            rel="noopener noreferrer">
-                View Full Resume <FontAwesomeIcon icon={faArrowRight} size="lg" />
-            </a>
         </div>
         </>
     );

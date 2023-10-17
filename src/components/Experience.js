@@ -1,30 +1,113 @@
+import React, {useState} from 'react';
+import Resume from "../aj.marci.resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../aj.resume.pdf";
-
 
 function Experience() {
-    return (
-    <>
-      <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-lightcream
-                        lg:text-xl md:text-xl text-base font-semibold"
-                        id="exp-section">
-          <h1>Education</h1>
-      </div>
-      <div className="text-darkcream font-gotham pl-4">
-        <ol className="relative border-l-2 border-turqoise">
+
+  const [selectedSection, setSelectedSection] = useState("");
+
+    const renderSection = (selectedSection) => {
+    if (selectedSection === "Education") {
+      return (
+        <ol className="relative border-l-2 border-turqoise mt-2">
           <li className="mb-10 ml-4">
-              <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-              <p className="text-sm italic">2022</p>
-              <p className="font-semibold lg:text-base md:text-base text-sm">Certified Professional Frontend Developer from Meta.</p>
+            <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+            <p className="text-sm italic">2022</p>
+            <p className="font-semibold lg:text-base md:text-base text-sm">
+              Certified Professional Frontend Developer from Meta.
+            </p>
           </li>
           <li className="mb-10 ml-4">
-              <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-              <p className="text-sm italic">2019</p>
-              <p className="font-semibold">B.S. in Environmental Science from Endicott College.</p>
+            <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+            <p className="text-sm italic">2019</p>
+            <p className="font-semibold">
+              B.S. in Environmental Science from Endicott College.
+            </p>
           </li>
         </ol>
+      );
+    } else if (selectedSection === "Work") {
+      return (
+        <ol className="relative border-l-2 border-turqoise mt-2">
+        <li className="mb-10 ml-4">
+          <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+          <p className="text-sm italic">2022</p>
+          <p className="font-semibold lg:text-base md:text-base text-sm">
+            Software Engineer at Freelance
+          </p>
+        </li>
+        <li className="mb-10 ml-4">
+          <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+          <p className="text-sm italic">2020</p>
+          <p className="font-semibold">
+            Senior Experience Manager, Marketing Associate at Goby
+          </p>
+        </li>
+        <li className="mb-10 ml-4">
+          <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+          <p className="text-sm italic">2017</p>
+          <p className="font-semibold">
+            Co-founder & CEO at CropShop
+          </p>
+        </li>
+      </ol>
+      );
+    } else if (selectedSection === "Achievements") {
+            return (
+              <ol className="relative border-l-2 border-turqoise mt-2">
+              <li className="mb-10 ml-4">
+                <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+                <p className="text-sm italic">2018</p>
+                <p className="font-semibold lg:text-base md:text-base text-sm">
+                  1st Place Winner of Endicott College's Pitch Competition.
+                </p>
+              </li>
+              <li className="mb-10 ml-4">
+                <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+                <p className="text-sm italic">2015</p>
+                <p className="font-semibold">
+                  Captain of Michigan Warriors Junior A Hockey Team.
+                </p>
+              </li>
+              <li className="mb-10 ml-4">
+                <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+                <p className="text-sm italic">2012</p>
+                <p className="font-semibold">
+                  MI U-16 AAA Hockey State Champion.
+                </p>
+              </li>
+            </ol>
+      );
+    }
+  };
+
+    return (
+    <>
+     <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-lightcream
+                        lg:text-xl md:text-xl text-base font-semibold"
+                        id="career-section">
+        <h1>Career</h1>
       </div>
+      <div className='font-gotham text-turqoise lg:text-lg md:text-lg text-base'>
+        <button className='hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSection("Education")}>Education |</button>
+        <button className='pl-1 hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSection("Work")}>Work |</button>
+        <button className='pl-1 hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSection("Achievements")}>Achievements</button>
+      </div>
+      <div className="text-darkcream font-gotham pl-4">
+        {renderSection(selectedSection)}
+      </div>
+      <div className="hover:translate-x-1 font-gotham font-semibold
+                text-turqoise hover:text-orange lg:mt-8 md:mt-8 mt-4">
+             <a href={Resume}
+            target="_blank"
+            rel="noopener noreferrer">
+                View Full Resume <FontAwesomeIcon icon={faArrowRight} size="lg" />
+            </a>
+        </div>
     </>
     );
   }
