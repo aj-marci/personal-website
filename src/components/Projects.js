@@ -23,7 +23,7 @@ const projectsData = [
         title: "Spotify App",
         description: "Full stack web app to visualize personal Spotify data.",
         badge1: "Express.js",
-        badge2: "Spotify Web API",
+        badge2: "Spotify API",
     },
     {
         id: 2,
