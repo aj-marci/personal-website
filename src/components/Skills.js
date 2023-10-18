@@ -7,60 +7,49 @@ function Experience() {
     const renderSection = (skills) => {
     if (skills === "Libraries & Frameworks") {
       return (
-        <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold'>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1">React.js</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Express.js</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Node.js</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Bootstrap</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">TailwindCSS</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">ChakraUI</p>
+        <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+                      grid-col cols-1 rounded bg-bdbg
+                      text-orange px-1 py-1 w-28'>
+          <p>React.js</p>
+          <p>Express.js</p>
+          <p>Node.js</p>
+          <p>Bootstrap</p>
+          <p>TailwindCSS</p>
+          <p>ChakraUI</p>
         </div>
       );
     } else if (skills === "Languages") {
       return (
-        <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold'>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1">HTML</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">CSS</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">JavaScript</p>
+        <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+        grid-col cols-1 rounded bg-bdbg
+        text-orange px-1 py-1 w-28'>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
         </div>
       );
     } else if (skills === "Deployment") {
         return (
-          <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold'>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1">Vercel</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Heroku</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Firebase Hosting</p>
+          <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+          grid-col cols-1 rounded bg-bdbg
+          text-orange px-1 py-1 w-32'>
+          <p>Vercel</p>
+          <p>Heroku</p>
+          <p>Firebase Hosting</p>
         </div>
       );
     } else if (skills === "Additional") {
         return (
-          <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold'>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1">MongoDB</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Firestore</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">GitHub</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Figma</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">REST</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">OAuth</p>
-          <p className="inline-flex items-center justify-center rounded bg-bdbg
-                        text-orange px-1 py-1 ml-2">Jest</p>
+          <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+          grid-col cols-1 rounded bg-bdbg
+          text-orange px-1 py-1 w-28'>
+          <p>MongoDB</p>
+          <p>Firestore</p>
+          <p>GitHub</p>
+          <p>Figma</p>
+          <p>REST</p>
+          <p>OAuth</p>
+          <p>Jest</p>
         </div>
       );
     }
