@@ -7,7 +7,7 @@ function Experience() {
     const renderSection = (skills) => {
     if (skills === "Libraries & Frameworks") {
       return (
-        <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+        <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
                       grid-col cols-1 rounded bg-bdbg
                       text-orange px-1 py-1 w-28'>
           <p>React.js</p>
@@ -20,7 +20,7 @@ function Experience() {
       );
     } else if (skills === "Languages") {
       return (
-        <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+        <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
         grid-col cols-1 rounded bg-bdbg
         text-orange px-1 py-1 w-28'>
           <p>HTML</p>
@@ -30,7 +30,7 @@ function Experience() {
       );
     } else if (skills === "Deployment") {
         return (
-          <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+          <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
           grid-col cols-1 rounded bg-bdbg
           text-orange px-1 py-1 w-32'>
           <p>Vercel</p>
@@ -40,7 +40,7 @@ function Experience() {
       );
     } else if (skills === "Additional") {
         return (
-          <div className='mt-2 lg:text-base md:text-base text-sm font-gotham font-semibold
+          <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
           grid-col cols-1 rounded bg-bdbg
           text-orange px-1 py-1 w-28'>
           <p>MongoDB</p>
@@ -67,7 +67,7 @@ function Experience() {
         onClick={() => setSelectedSkills("Libraries & Frameworks")}>Libraries & Frameworks |</button>
         <button className='pl-1 hover:text-orange focus:text-orange'
         onClick={() => setSelectedSkills("Languages")}>Languages |</button>
-        <button className='pl-1 hover:text-orange focus:text-orange'
+        <button className='lg:pl-1 md:pl-1hover:text-orange focus:text-orange'
         onClick={() => setSelectedSkills("Deployment")}>Deployment |</button>
         <button className='pl-1 hover:text-orange focus:text-orange'
         onClick={() => setSelectedSkills("Additional")}>Additional</button>
