@@ -26,6 +26,7 @@ function Experience() {
             <p>HTML</p>
             <p>CSS</p>
             <p>JavaScript</p>
+            <p>TypeScript</p>
         </div>
       );
     } else if (skills === "Deployment") {
