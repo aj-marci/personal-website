@@ -17,12 +17,12 @@ function About() {
             a B2B marketplace for Chefs and Local Farmers.
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
-            For 4 years my focus was business ops,
+            For 4 years my focus was sales, marketing, operations,
             <a href={Content}
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> content creation
             </a>, and UI / UX. In 2022
-            I decided to go all-in on coding and
+            I
             <a href={Certif}
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> completed
@@ -30,7 +30,6 @@ function About() {
             developer course.
             </p>
             <p>
-            Now I am a full stack engineer obsessed with coding.
             When not at my computer, you can find me cooking, golfing, hiking,
             or anything else outside with my girlfriend
             <a href={AudRog}
