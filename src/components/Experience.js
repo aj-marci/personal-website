@@ -13,15 +13,15 @@ function Experience() {
         <ol className="relative border-l-2 border-turqoise mt-2">
           <li className="mb-10 ml-4">
             <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-            <p className="text-sm italic">2022</p>
-            <p className="font-semibold lg:text-base md:text-base text-sm">
+            <p className="lg:text-sm md:text-sm text-xs italic">2022</p>
+            <p className="font-semibold lg:text-base md:text-base text-xs">
               Certified Professional Frontend Developer from Meta.
             </p>
           </li>
           <li className="mb-10 ml-4">
             <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-            <p className="text-sm italic">2019</p>
-            <p className="font-semibold">
+            <p className="lg:text-sm md:text-sm text-xs italic">2019</p>
+            <p className="font-semibold lg:text-base md:text-base text-xs">
               B.S. in Environmental Science from Endicott College.
             </p>
           </li>
@@ -32,22 +32,22 @@ function Experience() {
         <ol className="relative border-l-2 border-turqoise mt-2">
         <li className="mb-10 ml-4">
           <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-          <p className="text-sm italic">2022</p>
-          <p className="font-semibold lg:text-base md:text-base text-sm">
+          <p className="lg:text-sm md:text-sm text-xs italic">2022</p>
+          <p className="font-semibold lg:text-base md:text-base text-xs">
             Software Engineer at Freelance
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
           <p className="text-sm italic">2020</p>
-          <p className="font-semibold">
+          <p className="font-semibold lg:text-base md:text-base text-xs">
             Senior Experience Manager, Marketing Associate at Goby
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
           <p className="text-sm italic">2017</p>
-          <p className="font-semibold">
+          <p className="font-semibold lg:text-base md:text-base text-xs">
             Co-founder & CEO at CropShop
           </p>
         </li>
