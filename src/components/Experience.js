@@ -59,21 +59,21 @@ function Experience() {
               <li className="mb-10 ml-4">
                 <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
                 <p className="text-sm italic">2018</p>
-                <p className="font-semibold lg:text-base md:text-base text-sm">
+                <p className="font-semibold lg:text-base md:text-base text-xs">
                   1st Place Winner of Endicott College's Pitch Competition.
                 </p>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
                 <p className="text-sm italic">2015</p>
-                <p className="font-semibold">
+                <p className="font-semibold lg:text-base md:text-base text-xs">
                   Captain of Michigan Warriors Junior A Hockey Team.
                 </p>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
                 <p className="text-sm italic">2012</p>
-                <p className="font-semibold">
+                <p className="font-semibold lg:text-base md:text-base text-xs">
                   MI U-16 AAA Hockey State Champion.
                 </p>
               </li>
