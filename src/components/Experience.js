@@ -91,10 +91,10 @@ function Experience() {
       </div>
       <div className='font-gotham text-turqoise lg:text-lg md:text-lg text-base'>
         <button className='hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSection("Education")}>Education |</button>
-        <button className='pl-1 hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSection("Work")}>Work |</button>
-        <button className='pl-1 hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSection("Education")}>Education</button>
+        <button className='pl-2 text-darkcream hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSection("Work")}>Work</button>
+        <button className='pl-2 hover:text-orange focus:text-orange'
         onClick={() => setSelectedSection("Achievements")}>Achievements</button>
       </div>
       <div className="text-darkcream font-gotham pl-4">

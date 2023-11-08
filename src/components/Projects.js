@@ -29,7 +29,7 @@ const projectsData = [
         id: 2,
         image: V1,
         title: "Personal Website",
-        description: "My v1 personal website built with React. Updates deployed regularly.",
+        description: "My personal website built with React. Updates deployed regularly.",
         badge1: "Firebase",
         badge2: "Tailwind CSS",
     },

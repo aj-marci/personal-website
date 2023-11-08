@@ -27,6 +27,7 @@ function Experience() {
             <p>CSS</p>
             <p>JavaScript</p>
             <p>TypeScript</p>
+            <p>Ruby on Rails</p>
         </div>
       );
     } else if (skills === "Deployment") {
@@ -36,7 +37,9 @@ function Experience() {
           text-orange px-1 py-1 w-32'>
             <p>Vercel</p>
             <p>Heroku</p>
-            <p>Firebase Hosting</p>
+            <p>Firebase</p>
+            <p>Fly.io</p>
+            <p>GitHub Actions</p>
         </div>
       );
     } else if (skills === "Additional") {
@@ -65,12 +68,12 @@ function Experience() {
       </div>
       <div className='font-gotham text-turqoise lg:text-lg md:text-lg text-base'>
         <button className='hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSkills("Libraries & Frameworks")}>Libraries & Frameworks |</button>
-        <button className='pl-1 hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSkills("Languages")}>Languages |</button>
-        <button className='lg:pl-1 md:pl-1 hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSkills("Deployment")}>Deployment |</button>
-        <button className='pl-1 hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSkills("Libraries & Frameworks")}>Libraries & Frameworks</button>
+        <button className='pl-2 text-darkcream hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSkills("Languages")}>Languages</button>
+        <button className='lg:pl-2 md:pl-2 pl-1 hover:text-orange focus:text-orange'
+        onClick={() => setSelectedSkills("Deployment")}>Deployment</button>
+        <button className='pl-2 text-darkcream md:pl-2 hover:text-orange focus:text-orange'
         onClick={() => setSelectedSkills("Additional")}>Additional</button>
       </div>
       <div className="text-darkcream font-gotham">
