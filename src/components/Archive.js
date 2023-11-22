@@ -5,6 +5,12 @@ import { Link } from 'react-router-dom';
 
 const archiveData = [
     {
+        date: "November, 2023",
+        name: "Admin Dashboard",
+        url: "https://ajmarci.com/admin",
+        description: "Login with Firebase auth, fetched contact form data in pleasant UI. Visualizing Google Analytics data with v4 API, OAuth, and Recharts in progress."
+    },
+    {
         date: "October, 2023",
         name: "NASA APOD API",
         url: "https://nasa-backend-nine.vercel.app",
@@ -15,12 +21,6 @@ const archiveData = [
         name: "Metaphor Search API",
         url: "https://github.com/aj-marci/metaphor-api",
         description: "Fetched and rendered the top 2023 Ryder Cup articles using the Metaphor AI Search API. React frontend with Express.js and Node.js backend."
-    },
-    {
-        date: "September, 2023",
-        name: "Admin Dashboard",
-        url: "https://ajmarci.com/admin",
-        description: "Login with Firebase authentication, fetched contact form data in pleasant UI. Visualizing Google Analytics data with v4 API, OAuth, and Recharts in progress."
     },
     {
         date: "August, 2023",
