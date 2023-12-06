@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Resume from "../abm.resume.pdf";
+import Resume from "../am.resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
