@@ -93,21 +93,21 @@ function Experience() {
         <h1>Career</h1>
       </div>
       <div className='text-turqoise lg:text-lg md:text-lg text-base
-                          bg-groupHover pl-4 rounded-md mb-4 py-2'>
-        <button
-          onClick={() => {setSelectedSection("Education"); setEducationVisible(!educationVisible); }}>Education</button>
+                          bg-groupHover pl-4 rounded-md mb-4 py-2 hover:cursor-pointer'
+          onClick={() => {setSelectedSection("Education"); setEducationVisible(!educationVisible); }}>
+            Education
             {selectedSection === "Education" ? renderSection(selectedSection): null }
       </div>
       <div className='text-turqoise lg:text-lg md:text-lg text-base
-                          bg-groupHover pl-4 rounded-md mb-4 py-2'>
-        <button
-          onClick={() => {setSelectedSection("Work"); setWorkVisible(!workVisible); }}>Work</button>
+                          bg-groupHover pl-4 rounded-md mb-4 py-2 hover:cursor-pointer'
+          onClick={() => {setSelectedSection("Work"); setWorkVisible(!workVisible); }}>
+            Work
             {selectedSection === "Work" ? renderSection(selectedSection): null }
       </div>
       <div className='text-turqoise lg:text-lg md:text-lg text-base
-                          bg-groupHover pl-4 rounded-md mb-4 py-2'>
-        <button
-          onClick={() => {setSelectedSection("Achievements"); setAchievementsVisible(!achievementsVisible); }}>Achievements</button>
+                          bg-groupHover pl-4 rounded-md mb-4 py-2 hover:cursor-pointer'
+          onClick={() => {setSelectedSection("Achievements"); setAchievementsVisible(!achievementsVisible); }}>
+            Achievements
             {selectedSection === "Achievements" ? renderSection(selectedSection): null }
       </div>
       <div className="hover:translate-x-1 font-gotham font-semibold

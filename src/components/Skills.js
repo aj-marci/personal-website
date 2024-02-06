@@ -62,21 +62,21 @@ function Experience() {
         <h1>Skills</h1>
       </div>
       <div className='text-turqoise lg:text-lg md:text-lg text-base
-                      bg-groupHover pl-4 rounded-md mb-4 py-2'>
-        <button
-        onClick={() => {setSelectedSkills("Technical"); setTechnicalVisible(!technicalVisible); }}>Technical</button>
+                      bg-groupHover pl-4 rounded-md mb-4 py-2 hover:cursor-pointer'
+        onClick={() => {setSelectedSkills("Technical"); setTechnicalVisible(!technicalVisible); }}>
+          Technical
         {selectedSkills === "Technical" ? renderSection(selectedSkills): null }
       </div>
       <div className='text-turqoise lg:text-lg md:text-lg text-base
-                          bg-groupHover pl-4 rounded-md mb-4 py-2'>
-        <button
-          onClick={() => {setSelectedSkills("Growth"); setGrowthVisible(!growthVisible); }}>Growth Hacking</button>
+                          bg-groupHover pl-4 rounded-md mb-4 py-2 hover:cursor-pointer'
+          onClick={() => {setSelectedSkills("Growth"); setGrowthVisible(!growthVisible); }}>
+            Marketing
             {selectedSkills === "Growth" ? renderSection(selectedSkills): null }
       </div>
       <div className='text-turqoise lg:text-lg md:text-lg text-base
-                          bg-groupHover pl-4 rounded-md mb-4 py-2'>
-        <button
-          onClick={() => {setSelectedSkills("CS"); setCsVisible(!csVisible); }}>Customer Success</button>
+                          bg-groupHover pl-4 rounded-md mb-4 py-2 hover:cursor-pointer'
+          onClick={() => {setSelectedSkills("CS"); setCsVisible(!csVisible); }}>
+            Customer Success
             {selectedSkills === "CS" ? renderSection(selectedSkills): null }
       </div>
     </>
