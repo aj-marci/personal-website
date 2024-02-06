@@ -5,6 +5,12 @@ import { Link } from 'react-router-dom';
 
 const archiveData = [
     {
+        date: "January, 2024",
+        name: "Unlayer Email Editor",
+        url: "https://github.com/aj-marci/unlayer-aj",
+        description: "Embedded Unlayer's TypeScript drag & drop email editor into a React app to design and download email templates."
+    },
+    {
         date: "November, 2023",
         name: "Admin Dashboard",
         url: "https://ajmarci.com/admin",
