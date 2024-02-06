@@ -3,57 +3,52 @@ import React, {useState} from 'react';
 function Experience() {
 
   const [selectedSkills, setSelectedSkills] = useState("");
+  // accordian state
+  const [technicalVisible, setTechnicalVisible] = useState(false);
+  const [growthVisible, setGrowthVisible] = useState(false);
+  const [csVisible, setCsVisible] = useState(false);
+
 
     const renderSection = (skills) => {
-    if (skills === "Libraries & Frameworks") {
-      return (
+    if (skills === "Technical") {
+      return technicalVisible && (
         <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
-                      grid-col cols-1 rounded bg-bdbg
-                      text-orange px-1 py-1 w-28'>
+        grid grid-cols-3 gap-1 text-darkcream'>
+          <p>JavaScript</p>
+          <p>HTML</p>
+          <p>CSS</p>
           <p>React.js</p>
           <p>Express.js</p>
           <p>Node.js</p>
-          <p>Bootstrap</p>
-          <p>TailwindCSS</p>
-          <p>ChakraUI</p>
+          <p>GCP</p>
+          <p>Heroku</p>
+          <p>MongoDB</p>
+          <p>REST</p>
+          <p>GitHub</p>
+          <p>Vercel</p>
         </div>
       );
-    } else if (skills === "Languages") {
-      return (
+    } else if (skills === "Growth") {
+      return growthVisible && (
         <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
-        grid-col cols-1 rounded bg-bdbg
-        text-orange px-1 py-1 w-28'>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>TypeScript</p>
-            <p>Ruby on Rails</p>
+        grid grid-cols-3 gap-1 text-darkcream'>
+            <p>Google Ads</p>
+            <p>Google Analytics</p>
+            <p>Impact</p>
+            <p>Meta Ads</p>
+            <p>Klaviyo</p>
+            <p>Quora</p>
+            <p>Affiliate Marketing</p>
         </div>
       );
-    } else if (skills === "Deployment") {
-        return (
+    } else if (skills === "CS") {
+        return csVisible && (
           <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
-          grid-col cols-1 rounded bg-bdbg
-          text-orange px-1 py-1 w-32'>
-            <p>Vercel</p>
-            <p>Heroku</p>
-            <p>Firebase</p>
-            <p>Fly.io</p>
-            <p>GitHub Actions</p>
-        </div>
-      );
-    } else if (skills === "Additional") {
-        return (
-          <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold
-          grid-col cols-1 rounded bg-bdbg
-          text-orange px-1 py-1 w-28'>
-            <p>MongoDB</p>
-            <p>Firestore</p>
-            <p>GitHub</p>
-            <p>Figma</p>
-            <p>REST</p>
-            <p>OAuth</p>
-            <p>Jest</p>
+          grid grid-cols-3 gap-1 text-darkcream'>
+            <p>ZenDesk</p>
+            <p>Salesforce</p>
+            <p>SalesLoft</p>
+            <p>Intercom</p>
         </div>
       );
     }
@@ -66,18 +61,23 @@ function Experience() {
                         id="skills-section">
         <h1>Skills</h1>
       </div>
-      <div className='font-gotham text-turqoise lg:text-lg md:text-lg text-base'>
-        <button className='hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSkills("Libraries & Frameworks")}>Libraries & Frameworks</button>
-        <button className='pl-2 text-darkcream hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSkills("Languages")}>Languages</button>
-        <button className='lg:pl-2 md:pl-2 pl-1 hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSkills("Deployment")}>Deployment</button>
-        <button className='pl-2 text-darkcream md:pl-2 hover:text-orange focus:text-orange'
-        onClick={() => setSelectedSkills("Additional")}>Additional</button>
+      <div className='text-turqoise lg:text-lg md:text-lg text-base
+                      bg-groupHover pl-4 rounded-md mb-4 py-2'>
+        <button
+        onClick={() => {setSelectedSkills("Technical"); setTechnicalVisible(!technicalVisible); }}>Technical</button>
+        {selectedSkills === "Technical" ? renderSection(selectedSkills): null }
       </div>
-      <div className="text-darkcream font-gotham">
-      {renderSection(selectedSkills)}
+      <div className='text-turqoise lg:text-lg md:text-lg text-base
+                          bg-groupHover pl-4 rounded-md mb-4 py-2'>
+        <button
+          onClick={() => {setSelectedSkills("Growth"); setGrowthVisible(!growthVisible); }}>Growth Hacking</button>
+            {selectedSkills === "Growth" ? renderSection(selectedSkills): null }
+      </div>
+      <div className='text-turqoise lg:text-lg md:text-lg text-base
+                          bg-groupHover pl-4 rounded-md mb-4 py-2'>
+        <button
+          onClick={() => {setSelectedSkills("CS"); setCsVisible(!csVisible); }}>Customer Success</button>
+            {selectedSkills === "CS" ? renderSection(selectedSkills): null }
       </div>
     </>
     );
