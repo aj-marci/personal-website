@@ -1,4 +1,3 @@
-import Certif from "../code.meta.certif.pdf";
 import Content from "../content.creation.pdf";
 import AudRog from "../aud.rog.pdf";
 
@@ -17,11 +16,12 @@ function About() {
             a B2B marketplace for Chefs and Local Farmers.
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
-            Since co-founding CropShop, I've worked cross-functionally in sales, marketing, operations,
+            Since co-founding CropShop, I've worked cross-functionally throughout 
+            customer success, marketing, operations,
             <a href={Content}
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> content creation
-            </a>, frontend development, and UI / UX.
+            </a>, and software engineering.
             </p>
             <p>
             When not at my computer, you can find me cooking, golfing, hiking,
