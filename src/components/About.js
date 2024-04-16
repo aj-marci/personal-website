@@ -17,11 +17,10 @@ function About() {
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
             Since co-founding CropShop, I've worked cross-functionally throughout 
-            customer success, marketing, operations,
-            <a href={Content}
-                target="_blank" rel="noopener noreferrer"
-                className="text-turqoise hover:text-orange font-semibold"> content creation
-            </a>, and software engineering.
+            customer success, marketing, operations, and software engineering.
+            </p>
+            <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be helping enterprise customers resolve technical issues 
+            as a Technical Customer Success Manager at Unlayer.
             </p>
             <p>
             When not at my computer, you can find me cooking, golfing, hiking,

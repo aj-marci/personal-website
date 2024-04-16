@@ -46,23 +46,30 @@ function Experience() {
       Work
       {workVisible && (
             <ol className="relative border-l-2 border-turqoise mt-2">
+              <li className="mb-10 ml-4">
+                <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
+                <p className="lg:text-sm md:text-sm text-xs italic text-darkcream font-normal">2024-current</p>
+                <p className="font-gotham font-semibold text-darkcream lg:text-base md:text-base text-xs">
+                  Technical Customer Success Manager at Unlayer
+                </p>
+              </li>
             <li className="mb-10 ml-4">
             <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-              <p className="lg:text-sm md:text-sm text-xs italic text-darkcream font-normal">2022</p>
+              <p className="lg:text-sm md:text-sm text-xs italic text-darkcream font-normal">2022-2023</p>
              <p className="font-gotham font-semibold text-darkcream lg:text-base md:text-base text-xs">
                   Software Engineer at Freelance
               </p>
               </li>
               <li className="mb-10 ml-4">
               <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-              <p className="lg:text-sm md:text-sm text-xs italic text-darkcream font-normal">2020</p>
+              <p className="lg:text-sm md:text-sm text-xs italic text-darkcream font-normal">2021-2024</p>
               <p className="font-gotham font-semibold text-darkcream lg:text-base md:text-base text-xs">
                   Senior Experience Manager, Marketing Associate at Goby
                </p>
                </li>
                 <li className="mb-10 ml-4">
                 <div className="absolute w-4 h-4 -ml-6 rounded-full bg-turqoise"></div>
-                <p className="lg:text-sm md:text-sm text-xs italic text-darkcream font-normal">2017</p>
+                <p className="lg:text-sm md:text-sm text-xs italic text-darkcream font-normal">2017-2021</p>
                 <p className="font-gotham font-semibold text-darkcream lg:text-base md:text-base text-xs">
                   Co-founder & CEO at CropShop
                 </p>
