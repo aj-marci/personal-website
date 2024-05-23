@@ -24,7 +24,7 @@ function About() {
             </p>
             <p>
             When not at my computer, you can find me cooking, golfing, hiking,
-            or anything else outside with my girlfriend
+            or anything else outside with my fiance
             <a href={AudRog}
                 target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> Audry
