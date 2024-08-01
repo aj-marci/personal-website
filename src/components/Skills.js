@@ -22,8 +22,7 @@ function Experience() {
         {technicalVisible && (
           <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold grid grid-cols-3 gap-1 text-darkcream'>
             <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <p>Angular</p>
             <p>React.js</p>
             <p>Express.js</p>
             <p>Node.js</p>
@@ -33,6 +32,9 @@ function Experience() {
             <p>REST</p>
             <p>GitHub</p>
             <p>Vercel</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>AWS</p>
           </div>
         )}
       </div>
@@ -62,6 +64,7 @@ function Experience() {
         Customer Success
         {csVisible && (
           <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold grid grid-cols-3 gap-1 text-darkcream'>
+            <p>Vitally</p>
             <p>ZenDesk</p>
             <p>Salesforce</p>
             <p>SalesLoft</p>
