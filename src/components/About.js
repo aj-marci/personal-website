@@ -23,7 +23,7 @@ function About() {
             as a Technical Customer Success Manager at
             <a href="https://unlayer.com/embed" target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> Unlayer
-            </a>. My accounts includes U.S. based Fortune 500 companies and internationally based market leaders. 
+            </a>. My accounts include U.S. based Fortune 500 companies and internationally based market leaders. 
             </p>
             <p>
             When not at my computer, you can find me cooking, golfing, hiking,

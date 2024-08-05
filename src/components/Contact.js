@@ -85,7 +85,7 @@ function Contact() {
                     className="lg:text-base md:text-base text-sm
                     p-1 rounded bg-groupHover
                     focus:outline-none focus:ring-none text-darkcream"
-                    placeholder="Bobby McGee"></input>
+                    placeholder="AJ"></input>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.name}</p>
                 </div>
@@ -100,7 +100,7 @@ function Contact() {
                     className="lg:text-base md:text-base text-sm
                     p-1 rounded bg-groupHover
                     focus:outline-none focus:ring-none text-darkcream"
-                    placeholder="janis@joplin.com"
+                    placeholder="example@mail.com"
                     type="email"></input>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.email}</p>
