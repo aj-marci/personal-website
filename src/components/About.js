@@ -19,8 +19,11 @@ function About() {
             Since co-founding CropShop, I've worked cross-functionally throughout 
             customer success, marketing, operations, and software engineering.
             </p>
-            <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be helping enterprise customers resolve technical issues 
-            as a Technical Customer Success Manager at Unlayer.
+            <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be and helping enterprise customers resolve technical issues 
+            as a Technical Customer Success Manager at
+            <a href="https://unlayer.com/embed" target="_blank" rel="noopener noreferrer"
+                className="text-turqoise hover:text-orange font-semibold"> Unlayer
+            </a>. My accounts includes U.S. based Fortune 500 companies and internationally based market leaders. 
             </p>
             <p>
             When not at my computer, you can find me cooking, golfing, hiking,
