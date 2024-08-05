@@ -25,14 +25,14 @@ const projectsData = [
         badge1: "Express.js",
         badge2: "Spotify API",
     },
-    {
+    /*{
         id: 2,
         image: V1,
         title: "Personal Website",
         description: "My personal website built with React. Updates deployed regularly.",
         badge1: "Firebase",
         badge2: "Tailwind CSS",
-    },
+    },*/
     {
         id: 3,
         image: Capstone,
