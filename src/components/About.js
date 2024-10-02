@@ -13,11 +13,11 @@ function About() {
             <a href="https://www.endicott.edu/news-events/news/news-articles/2019/02/student-startup-living-proof-of-endicotts-entrepreneurial-spirit" target="_blank" rel="noopener noreferrer"
                 className="text-turqoise hover:text-orange font-semibold"> CropShop
             </a>,
-            a B2B marketplace for Chefs and Local Farmers.
+            a B2B marketplace platform connecting Chefs and Local Farmers.
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
             Since co-founding CropShop, I've worked cross-functionally throughout 
-            customer success, marketing, operations, and software engineering.
+            growth, customer success, operations, and software engineering.
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be helping enterprise customers resolve technical issues 
             as a Technical Customer Success Manager at
