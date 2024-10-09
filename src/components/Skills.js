@@ -22,11 +22,13 @@ function Experience() {
         {technicalVisible && (
           <div className='mt-2 lg:text-base md:text-base text-xs font-gotham font-semibold grid grid-cols-3 gap-1 text-darkcream'>
             <p>JavaScript</p>
-            <p>Angular</p>
-            <p>React.js</p>
+            <p>React</p>
             <p>Express.js</p>
             <p>Node.js</p>
+            <p>Angular</p>
+            <p>Vue</p>
             <p>GCP</p>
+            <p>AWS</p>
             <p>Heroku</p>
             <p>MongoDB</p>
             <p>REST</p>
@@ -34,7 +36,7 @@ function Experience() {
             <p>Vercel</p>
             <p>HTML</p>
             <p>CSS</p>
-            <p>AWS</p>
+            <p>Jira</p>
           </div>
         )}
       </div>
