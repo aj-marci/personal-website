@@ -4,6 +4,8 @@ import * as Yup from 'yup';
 import { collection, addDoc, updateDoc, serverTimestamp } from "firebase/firestore";
 import db from "..";
 import { ToastContainer, toast } from 'react-toastify';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import 'react-toastify/dist/ReactToastify.css';
 import '../App.css';
 
@@ -36,8 +38,9 @@ function Contact() {
 
     return (
     <>
-        <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-lightcream
-                        lg:text-xl md:text-xl text-base font-semibold">
+    <div className="font-extrabold drop-shadow-lg font-gotham">
+        <div className="lg:mt-24 md:mt-20 mt-8 mb-2 font-gotham text-charcoal
+                        lg:text-xl md:text-xl text-base">
             <h1>Contact</h1>
         </div>
         <Formik   initialValues={{
@@ -73,49 +76,45 @@ function Contact() {
         <form
         noValidate
         onSubmit={handleSubmit}
-        className="font-gotham lg:mr-0 md:mr-0 mr-4">
+        className="lg:mr-0 md:mr-0">
                 <div className="flex flex-col mb-2">
-                    <label className="text-base text-darkcream mb-1
+                    <label className="text-base text-charcoal mb-1
                     lg:text-base md:text-base text-sm">Your Name</label>
                     <input
                     value={values.name}
                     onChange={handleChange}
                     aria-label="enter your first name"
                     name="name"
-                    className="lg:text-base md:text-base text-sm
-                    p-1 rounded bg-groupHover
-                    focus:outline-none focus:ring-none text-darkcream"
+                    className="lg:text-base md:text-base text-s p-2 rounded-md border-2 border-lightGreen
+                    focus:outline-none focus:ring-none text-charcoal"
                     placeholder="AJ"></input>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.name}</p>
                 </div>
                 <div className="flex flex-col mb-2">
-                    <label className="text-base text-darkcream mb-1
+                    <label className="text-base text-charcoal mb-1
                     lg:text-base md:text-base text-sm">Email</label>
                     <input
                     value={values.email}
                     onChange={handleChange}
                     aria-label="enter email address"
                     name="email"
-                    className="lg:text-base md:text-base text-sm
-                    p-1 rounded bg-groupHover
-                    focus:outline-none focus:ring-none text-darkcream"
+                    className="lg:text-base md:text-base text-s p-2 rounded-md border-2 border-medGreen
+                    focus:outline-none focus:ring-none text-charcoal"
                     placeholder="example@mail.com"
                     type="email"></input>
-                    <p className="font-gotham text-formError
-                        font-semibold text-sm">{errors.email}</p>
+                    <p className="font-gotham text-formError text-sm">{errors.email}</p>
                 </div>
                 <div className="flex flex-col mb-2">
-                    <label className="text-base text-darkcream mb-1
+                    <label className="text-base text-charcoal mb-1
                     lg:text-base md:text-base text-sm">Message</label>
                     <textarea
                     value={values.message}
                     onChange={handleChange}
                     aria-label="enter your first name"
                     name="message"
-                    className="lg:text-base md:text-base text-sm
-                    p-1 rounded bg-groupHover
-                    focus:outline-none focus:ring-none text-darkcream"
+                    className="lg:text-base md:text-base text-s p-2 rounded-md border-2 border-darkGreen
+                    focus:outline-none focus:ring-none text-charcoal"
                     placeholder="Want to write code for us?"></textarea>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.message}</p>
@@ -124,12 +123,13 @@ function Contact() {
                 type="submit"
                 disabled={!dirty || errors.email || errors.name || errors.message}
                 onClick={successMessage}
-                className="text-base text-turqoise hover:text-orange
-                            font-semibold hover:translate-x-1">SEND</button>
+                className="text-base lg:text-lg md:text-lg text-charcoal hover:text-lightGreen
+                hover:translate-x-1 hover:cursor-pointer">Send <FontAwesomeIcon icon={faArrowRight} size="lg"/></button>
                 <ToastContainer />
         </form>
         )}
         </Formik>
+</div>
     </>
     );
 }

@@ -5,7 +5,7 @@ import Main from "./Main";
 function Homepage() {
     return (
      <div className="grid lg:grid-cols-2 md:grid-cols2 sm:grid-cols1
-        bg-background">
+        bg-whiteBackground">
         <div>
             <Nav/>
         </div>

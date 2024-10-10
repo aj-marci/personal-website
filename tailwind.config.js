@@ -12,6 +12,11 @@ module.exports = {
         'groupHover': '#464646',
         'bdbg': '#603900',
         'formError': '#DB2B2B',
+        'lightGreen': '#C0DFC9',
+        'medGreen': '#86B994',
+        'darkGreen': '#4A7355',
+        'charcoal': '#414141',
+        'whiteBackground': '#F9F9F9'
       },
       fontFamily: {
       'gotham': ['Ubuntu', 'sans-serif'],

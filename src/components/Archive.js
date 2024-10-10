@@ -81,36 +81,39 @@ const archiveData = [
 function Archive() {
     return (
         <>
-        <div className="bg-background">
-        <button className="bg-background text-turqoise mb-8 mt-4 ml-2 hover:text-orange
+    <div className="bg-whiteBackground font-bold font-gotham drop-shadow-lg">
+        <div>
+        <button className="text-charcoal mb-8 mt-4 ml-2 hover:text-lightGreen
                             hover:-translate-x-1">
         <Link to="/">
             <FontAwesomeIcon icon={faArrowLeft} size="xl"/>
         </Link>
         </button>
         </div>
-        <div className="bg-background font-gotham pl-2 pb-8">
-            <h1 className="text-2xl font-semibold text-lightcream">Project Archive</h1>
-            <h className="text-sm text-darkcream">Click a project to view code or live app.</h>
+        <div className="pl-2 pb-8">
+            <h1 className="text-2xl text-charcoal">Project Archive</h1>
+            <h className="text-sm text-darkGreen">Click a project to view code or live app.</h>
         </div>
-        <div className="bg-background lg:h-screen lg:pb-0 pb-8">
+        <div>
         {archiveData.map(({ date, name, description, url}) => (
         <a href={url} target="_blank" rel="noopener noreferrer">
-        <div key={name} className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 gap-4
-        font-gotham hover:bg-groupHover lg:mb-8 md:mb-8 mb-4 ml-2 mr-2">
-        <div className="text-orange lg:col-span-1 lg:text-sm md:text-xs text-xs">
+        <div key={name} className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 gap-4 
+         lg:mb-8 md:mb-8 mb-4 ml-2 mr-2 p-4 border-l-2 border-medGreen 
+         hover:text-medGreen hover:translate-x-4">
+        <div className="text-charcoal lg:col-span-1 lg:text-sm md:text-xs text-xs">
             <p>{date}</p>
         </div>
-        <div className="text-lightcream lg:col-span-1 lg:text-lg font-semibold">
+        <div className="text-darkGreen lg:col-span-1 lg:text-lg">
             <p>{name}</p>
         </div>
-        <div className="text-lightcream lg:col-span-3 lg:text-base md:text-sm text-xs">
+        <div className="text-charcoal lg:col-span-3 lg:text-base md:text-sm text-xs">
         <p>{description}</p>
         </div>
         </div>
         </a>
         ))}
         </div>
+    </div>
         </>
     );
 }
