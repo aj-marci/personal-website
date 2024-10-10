@@ -1,7 +1,7 @@
 Built with React.js, styled with Tailwind CSS, form handling and validation with Formik and Yup.
 
-Firebase Hosting and Firestore backend.
+GCP Hosting and DB.
 
 Firebase Auth used for Admin dashboard.
 
-Color scheme inspired by America's Southwest.
+GitHub and GitHub actions for CI / CD. 
