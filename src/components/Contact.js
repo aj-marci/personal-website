@@ -86,7 +86,7 @@ function Contact() {
                     aria-label="enter your first name"
                     name="name"
                     className="lg:text-base md:text-base text-s p-2 rounded-md border-2 border-lightGreen
-                    focus:outline-none focus:ring-none text-charcoal"
+                    focus:outline-none focus:ring-none text-charcoal focus:border-4 focus:border-lightGreen"
                     placeholder="AJ"></input>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.name}</p>
@@ -100,7 +100,7 @@ function Contact() {
                     aria-label="enter email address"
                     name="email"
                     className="lg:text-base md:text-base text-s p-2 rounded-md border-2 border-medGreen
-                    focus:outline-none focus:ring-none text-charcoal"
+                    focus:outline-none focus:ring-none text-charcoal focus:border-4 focus:border-medGreen"
                     placeholder="example@mail.com"
                     type="email"></input>
                     <p className="font-gotham text-formError text-sm">{errors.email}</p>
@@ -114,7 +114,7 @@ function Contact() {
                     aria-label="enter your first name"
                     name="message"
                     className="lg:text-base md:text-base text-s p-2 rounded-md border-2 border-darkGreen
-                    focus:outline-none focus:ring-none text-charcoal"
+                    focus:outline-none focus:ring-none text-charcoal focus:border-4 focus:border-darkGreen"
                     placeholder="Want to write code for us?"></textarea>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.message}</p>
