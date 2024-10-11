@@ -115,7 +115,7 @@ function Contact() {
                     name="message"
                     className="lg:text-base md:text-base text-s p-2 rounded-md border-2 border-darkGreen
                     focus:outline-none focus:ring-none text-charcoal focus:border-4 focus:border-darkGreen"
-                    placeholder="Want to write code for us?"></textarea>
+                    placeholder="Can you share a link to your calendar?"></textarea>
                     <p className="font-gotham text-formError
                         font-semibold text-sm">{errors.message}</p>
                 </div>
