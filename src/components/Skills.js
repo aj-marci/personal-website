@@ -30,6 +30,7 @@ function Experience() {
             <p>Angular</p>
             <p>Vue</p>
             <p>GCP</p>
+            <p>Firebase</p>
             <p>AWS</p>
             <p>Heroku</p>
             <p>MongoDB</p>
@@ -75,6 +76,7 @@ function Experience() {
             <p>Salesforce</p>
             <p>SalesLoft</p>
             <p>Intercom</p>
+            <p>SaaS Sales</p>
           </div>
         )}
       </div>
