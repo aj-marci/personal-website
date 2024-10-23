@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 const archiveData = [
     {
         date: "June, 2024",
-        name: "Full-Stack Email Editor",
+        name: "Full-Stack Unlayer Editor",
         url: "https://github.com/aj-marci/full-stack-embed",
-        description: "Embedded Unlayer's editor into a React frontend, and Node / Express backend using MongoDB for template management, and SendGrid for email sending."
+        description: "Embedded Unlayer's editor into a React frontend, Node / Express backend using MongoDB for template management, and SendGrid for email sending."
     },
     {
         date: "January, 2024",
-        name: "Unlayer Email Editor",
+        name: "Unlayer React Component",
         url: "https://github.com/aj-marci/unlayer-aj",
-        description: "Embedded Unlayer's TypeScript drag & drop email editor into a React app to design and download email templates."
+        description: "Embedded Unlayer's React componenet into a React app to design and download email templates."
     },
     {
         date: "November, 2023",
