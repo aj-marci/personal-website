@@ -56,7 +56,7 @@ function Experience() {
             <li className="my-6 ml-4">
               <p className="lg:text-sm md:text-sm text-xs italic text-charcoal">2022-2023</p>
              <p className="font-gotham font-semibold text-charcoal lg:text-base md:text-base text-xs">
-                  Software Engineer at Freelance
+                  Freelance Software Engineer
               </p>
               </li>
               <li className="my-6 ml-4">
