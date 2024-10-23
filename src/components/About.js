@@ -16,7 +16,7 @@ function About() {
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
             Since co-founding CropShop, I've worked cross-functionally throughout 
-            growth, customer success, operations, and software engineering.
+            sales, customer success, operations, and software engineering.
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be managing enterprise accounts 
             as a Technical Customer Success Manager at <a href="https://unlayer.com/embed" target="_blank" rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function About() {
             </a>. My accounts include U.S. based Fortune 500 companies and internationally based market leaders. 
             </p>
             <p>
-            When not at my computer, you can find me cooking, golfing, hiking,
+            If I'm not at my computer, you can find me cooking, golfing, hiking,
             or anything else outside with my fiance <a href={AudRog}
                 target="_blank" rel="noopener noreferrer"
                 className="text-darkGreen hover:text-lightGreen font-bold underline decoration-dotted"> Audry
