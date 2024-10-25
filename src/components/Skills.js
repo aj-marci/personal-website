@@ -37,6 +37,7 @@ function Experience() {
             <p>REST</p>
             <p>GitHub</p>
             <p>Vercel</p>
+            <p>Fly.io</p>
             <p>HTML</p>
             <p>CSS</p>
             <p>Jira</p>
