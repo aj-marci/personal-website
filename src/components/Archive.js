@@ -5,6 +5,12 @@ import { Link } from 'react-router-dom';
 
 const archiveData = [
     {
+        date: "November, 2024",
+        name: "Full-Stack Personal AI Assistant",
+        url: "https://github.com/aj-marci/personal-GPT",
+        description: "In progress - personal AI assistent leveraging various OpenAI APIs."
+    },
+    {
         date: "June, 2024",
         name: "Full-Stack Unlayer Editor",
         url: "https://github.com/aj-marci/full-stack-embed",
@@ -81,7 +87,7 @@ const archiveData = [
 function Archive() {
     return (
         <>
-    <div className="bg-whiteBackground font-bold font-gotham drop-shadow-lg">
+    <div className="bg-whiteBackground font-bold font-gotham">
         <div>
         <button className="text-charcoal mb-8 mt-4 ml-2 hover:text-lightGreen
                             hover:-translate-x-1">
@@ -98,8 +104,7 @@ function Archive() {
         {archiveData.map(({ date, name, description, url}) => (
         <a href={url} target="_blank" rel="noopener noreferrer">
         <div key={name} className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 gap-4 
-         lg:mb-8 md:mb-8 mb-4 ml-2 mr-2 p-4 border-l-2 border-medGreen 
-         hover:text-medGreen hover:translate-x-4">
+         lg:mb-8 md:mb-8 mb-4 ml-2 mr-2 p-4 border-l-2 border-medGreen hover:translate-x-2">
         <div className="text-charcoal lg:col-span-1 lg:text-sm md:text-xs text-xs">
             <p>{date}</p>
         </div>
