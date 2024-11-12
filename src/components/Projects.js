@@ -1,5 +1,6 @@
 import React from "react";
 import Spotify from "./images/spotify.png";
+import Unlayer from "./images/embedded.editor.png"
 import V1 from "./images/v1.png";
 import NASA from "./images/NASA..png";
 import Capstone from "./images/capstone.png";
@@ -12,18 +13,18 @@ const projectsData = [
     {
         id: 0,
         image: NASA,
-        title: "NASA Image of the Day",
-        description: "Frontend deployed on Vercel, backend deployed on Heroku.",
-        badge1: "React",
-        badge2: "MongoDB",
+        title: "NASA APOD API",
+        description: "Full-stack web app displaying astronomy images.",
+        badge1: "Vercel",
+        badge2: "React",
     },
     {
         id: 1,
         image: Spotify,
-        title: "Spotify App",
-        description: "Full stack web app to visualize personal Spotify data.",
-        badge1: "Express.js",
-        badge2: "Spotify API",
+        title: "Spotify Web API",
+        description: "Full-stack web app visualizing my personal Spotify data.",
+        badge1: "Express",
+        badge2: "Heroku",
     },
     /*{
         id: 2,
@@ -33,13 +34,21 @@ const projectsData = [
         badge1: "Firebase",
         badge2: "Tailwind CSS",
     },*/
-    {
+    /*{
         id: 3,
         image: Capstone,
         title: "Restaurant Homepage Template",
         description: "Responsive homepage with logic to reserve a table.",
         badge1: "ChakraUI",
         badge2: "React",
+    },*/
+    {
+        id: 3,
+        image: Unlayer,
+        title: "Emedded Unlayer Editor",
+        description: "Full-stack email design web app.",
+        badge1: "MongoDB",
+        badge2: "SendGrid API",
     },
 ]
 

@@ -14,7 +14,7 @@ const archiveData = [
         date: "June, 2024",
         name: "Full-Stack Unlayer Editor",
         url: "https://github.com/aj-marci/full-stack-embed",
-        description: "Embedded Unlayer's editor into a React frontend, Node / Express backend using MongoDB for template management, and SendGrid for email sending."
+        description: "Embedded Unlayer editor in a React frontend, and Node / Express backend using MongoDB for template management, plus SendGrid for email sending."
     },
     {
         date: "January, 2024",
