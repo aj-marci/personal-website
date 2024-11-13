@@ -46,7 +46,7 @@ const projectsData = [
         id: 3,
         image: Unlayer,
         title: "Emedded Unlayer Editor",
-        description: "Full-stack email design web app.",
+        description: "Full-stack web app for designing, managing, and sending emails.",
         badge1: "MongoDB",
         badge2: "SendGrid API",
     },
