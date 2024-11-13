@@ -9,7 +9,7 @@ function Footer() {
                 className="text-darkGreen hover:text-lightGreen underline decoration-dotted">Figma
             </a>, coded in <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer"
                 className="text-darkGreen hover:text-lightGreen underline decoration-dotted">VS Code
-            </a>, version control with Git and <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+            </a>, CI/CD with Git and <a href="https://github.com" target="_blank" rel="noopener noreferrer"
                 className="text-darkGreen hover:text-lightGreen underline decoration-dotted">GitHub
             </a>.
             </p>
