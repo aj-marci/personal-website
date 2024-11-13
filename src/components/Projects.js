@@ -10,21 +10,31 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 const projectsData = [
-    {
+    /*{
         id: 0,
-        image: NASA,
-        title: "NASA APOD API",
-        description: "Full-stack web app displaying astronomy images.",
-        badge1: "Vercel",
-        badge2: "React",
-    },
+        image: V1,
+        title: "Personal GPT",
+        description: "Full-stack personal AI assistant.",
+        badge1: "TypeScript",
+        badge2: "OpenAI API",
+    },*/
     {
         id: 1,
+        image: NASA,
+        title: "NASA APOD API",
+        description: "Full-stack web app displaying a new astronomy image and info daily.",
+        badge1: "Vercel",
+        badge2: "TailwindCSS",
+        badge3: "Heroku"
+    },
+    {
+        id: 2,
         image: Spotify,
         title: "Spotify Web API",
-        description: "Full-stack web app visualizing my personal Spotify data.",
+        description: "Full-stack web app visualizing my personal Spotify data in a similar UI.",
         badge1: "Express",
         badge2: "Heroku",
+        badge3: "React"
     },
     /*{
         id: 2,
@@ -49,6 +59,7 @@ const projectsData = [
         description: "Full-stack web app for designing, managing, and sending emails.",
         badge1: "MongoDB",
         badge2: "SendGrid API",
+        badge3: "React"
     },
 ]
 
@@ -61,9 +72,9 @@ function Projects() {
                         id="projects-section">
             <h1>Projects</h1>
         </div>
-        {projectsData.map(({ id, image, title, description, badge1, badge2}) => (
+        {projectsData.map(({ id, image, title, description, badge1, badge2, badge3}) => (
         <div key={id}
-        className="container font-gotham lg:mb-8 md:mb-8 mb-4
+        className="font-gotham lg:mb-8 md:mb-8 mb-4
                     grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-2">
         <div>
             <img className="w-auto mb-1 w-40 rounded"
@@ -72,14 +83,16 @@ function Projects() {
         <div>
             <p className="text-charcoal
                             lg:text-base md:text-base text-sm
-                            mb-1 font-semibold justify-right">{title}</p>
+                            mb-1 justify-right">{title}</p>
             <p className="text-charcoal
                             lg:text-sm md:text-sm text-xs
                             mb-3 justify-right">{description}</p>
-            <p className="inline-flex items-center justify-center rounded bg-darkGreen text-lightGreen
-                            text-xs px-1 py-1 mr-1 font-semibold font-inter">{badge1}</p>
-            <p className="inline-flex items-center justify-center rounded bg-darkGreen text-lightGreen
-                            text-xs px-1 py-1 mr-1 font-semibold font-inter">{badge2}</p>
+            <p className="invisible md:visible lg:visible inline-flex rounded bg-darkGreen text-lime
+                            text-xs px-1 lg:px-2 md:px-2 py-1 mr-1 font-semibold font-inter">{badge1}</p>
+            <p className="invisible md:visible lg:visible inline-flex rounded bg-darkGreen text-lime
+                            text-xs px-1 lg:px-2 md:px-2 py-1 mr-1 font-semibold font-inter">{badge2}</p>
+            <p className="invisible md:visible lg:visible inline-flex rounded bg-darkGreen text-lime
+                            text-xs px-1 lg:px-2 md:px-2 py-1 mr-1 font-semibold font-inter">{badge3}</p>
         </div>
         </div>
         ))}

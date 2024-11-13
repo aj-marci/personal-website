@@ -16,7 +16,8 @@ module.exports = {
         'medGreen': '#86B994',
         'darkGreen': '#4A7355',
         'charcoal': '#414141',
-        'whiteBackground': '#F9F9F9'
+        'whiteBackground': '#F9F9F9',
+        'lime': '#AEFFC4'
       },
       fontFamily: {
       'gotham': ['Ubuntu', 'sans-serif'],
