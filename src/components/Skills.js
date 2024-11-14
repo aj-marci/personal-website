@@ -25,7 +25,7 @@ function Experience() {
           <div className='mt-2 lg:text-base md:text-base text-xs grid grid-cols-3 gap-1 text-charcoal'>
             <p>JavaScript</p>
             <p>React</p>
-            <p>Express.js</p>
+            <p>Express</p>
             <p>Node.js</p>
             <p>Angular</p>
             <p>Vue</p>
