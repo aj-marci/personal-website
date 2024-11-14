@@ -40,6 +40,8 @@ function Experience() {
             <p>Fly.io</p>
             <p>HTML</p>
             <p>CSS</p>
+            <p>TailwindCSS</p>
+            <p>Bootstrap</p>
             <p>Jira</p>
           </div>
         )}
