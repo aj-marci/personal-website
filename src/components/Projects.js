@@ -1,7 +1,7 @@
 import React from "react";
 import Spotify from "./images/spotify.png";
 import Unlayer from "./images/embedded.editor.png"
-import V1 from "./images/v1.png";
+import GPT from "./images/GPT.png";
 import NASA from "./images/NASA..png";
 import Capstone from "./images/capstone.png";
 import { Link } from 'react-router-dom';
@@ -10,14 +10,15 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 const projectsData = [
-    /*{
+    {
         id: 0,
-        image: V1,
+        image: GPT,
         title: "Personal GPT",
-        description: "Full-stack personal AI assistant.",
+        description: "Full-stack personal AI chat assistant.",
         badge1: "TypeScript",
         badge2: "OpenAI API",
-    },*/
+        badge3: "Node.js"
+    },
     {
         id: 1,
         image: NASA,
