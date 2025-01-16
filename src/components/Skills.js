@@ -30,7 +30,8 @@ function Experience() {
             <p>Node.js</p>
             <p>Angular</p>
             <p>Vue</p>
-            <p>GCP</p>
+            <p>SQL</p>
+            <p>Supabase</p>
             <p>Firebase</p>
             <p>AWS</p>
             <p>Heroku</p>
@@ -43,7 +44,6 @@ function Experience() {
             <p>CSS</p>
             <p>TailwindCSS</p>
             <p>Bootstrap</p>
-            <p>Jira</p>
           </div>
         )}
       </div>
@@ -80,6 +80,7 @@ function Experience() {
             <p>Salesforce</p>
             <p>SalesLoft</p>
             <p>Intercom</p>
+            <p>Jira</p>
             <p>SaaS Sales</p>
           </div>
         )}
