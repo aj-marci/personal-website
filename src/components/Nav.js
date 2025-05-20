@@ -18,7 +18,7 @@ const handleClick = (anchor) => () => {
         <>
           <div className="lg:w-1/2 md:w-1/2 sm:w-full lg:fixed lg:mt-20 md:mt-16 mt-16
                           lg:ml-20 md:ml-12 ml-8 lg:pl-12 lg:pt-12 lg:pb-12 
-                          font-gotham lg:border-l-4 lg:border-lightGreen drop-shadow-xl font-extrabold">
+                          font-gotham lg:border-l-4 lg:border-lightGreen drop-shadow-lg font-extrabold">
               <h1 className="text-charcoal lg:text-3xl md:text-2xl text-xl
                             lg:mb-2 md:mb-2 mb-1">
                 Alex (AJ) Marcinek II</h1>
