@@ -7,7 +7,7 @@ function About() {
         <div id="about-section"
         className="lg:mb-24 md:mb-20 mb-8
         text-charcoal lg:text-base md:text-base text-xs max-w-md
-        font-gotham leading-relaxed font-extrabold lg:border-r-4 lg:border-medGreen lg:pr-20 drop-shadow-lg">
+        font-gotham leading-relaxed font-extrabold lg:border-r-4 lg:border-medGreen lg:pr-20">
             <p className="lg:mb-2 md:mb-2 mb-1">In my senior year of college
                                                 I embarked on co-founding
             <a href="https://www.endicott.edu/news-events/news/news-articles/2019/02/student-startup-living-proof-of-endicotts-entrepreneurial-spirit" target="_blank" rel="noopener noreferrer"
