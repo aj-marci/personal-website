@@ -31,7 +31,7 @@ const archiveData = [
     {
         date: "October, 2023",
         name: "NASA APOD API",
-        url: "https://github.com/aj-marci/NASA",
+        url: "https://nasa-backend-nine.vercel.app/",
         description: "Live app under construction. View a new NASA astronomy image daily. React frontend styled with TailwindCSS, deployed on Vercel. Express.js, Node.js, and MongoDB backend deployed on Heroku."
     },
     {
