@@ -15,13 +15,13 @@ function About() {
             a B2B marketplace platform connecting Chefs and Local Farmers.
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
-            Since co-founding CropShop, I've worked cross-functionally throughout 
-            sales, customer success, operations, and software engineering.
+            Since co-founding CropShop, I've been working cross-functionally throughout 
+            software engineering, customer success, and growth.
             </p>
-            <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be managing enterprise accounts 
-            as a Technical Customer Success Manager at <a href="https://unlayer.com/embed" target="_blank" rel="noopener noreferrer"
-                className="text-darkGreen hover:text-lightGreen font-bold underline decoration-dotted">Unlayer
-            </a>. My accounts include U.S. based Fortune 500 companies and internationally based market leaders. 
+            <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be a technical resource for enterprise customers 
+            as a Senior Customer Engineer at <a href="https://safetyculture.com/" target="_blank" rel="noopener noreferrer"
+                className="text-darkGreen hover:text-lightGreen font-bold underline decoration-dotted">SafetyCulture
+            </a>.
             </p>
             <p>
             If I'm not at my computer you can find me cooking, golfing, hiking,

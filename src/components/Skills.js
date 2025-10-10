@@ -43,7 +43,8 @@ function Experience() {
             <p>HTML</p>
             <p>CSS</p>
             <p>TailwindCSS</p>
-            <p>Bootstrap</p>
+            <p>SSO</p>
+            <p>SCIM</p>
           </div>
         )}
       </div>

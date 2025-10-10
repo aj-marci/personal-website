@@ -47,8 +47,14 @@ function Experience() {
       Work
       {workVisible && (
             <ol>
-              <li className="my-6- ml-4">
-                <p className="lg:text-sm md:text-sm text-xs italic text-charcoal">2024-current</p>
+              <li className="my-6 ml-4">
+                <p className="lg:text-sm md:text-sm text-xs italic text-charcoal">2025 - current</p>
+                <p className="font-gotham font-semibold text-charcoal lg:text-base md:text-base text-xs">
+                  Senior Customer Engineer at SafetyCulture
+                </p>
+              </li>
+              <li className="my-6 ml-4">
+                <p className="lg:text-sm md:text-sm text-xs italic text-charcoal">2024-2025</p>
                 <p className="font-gotham font-semibold text-charcoal lg:text-base md:text-base text-xs">
                   Technical CSM, Enterprise at Unlayer
                 </p>
