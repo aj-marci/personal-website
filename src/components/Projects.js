@@ -3,6 +3,7 @@ import Spotify from "./images/spotify.png";
 import Unlayer from "./images/embedded.editor.png"
 import GPT from "./images/GPT.png";
 import NASA from "./images/NASA..png";
+import Overvue from "./images/fintech.png"
 import Capstone from "./images/capstone.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,6 +13,15 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const projectsData = [
     {
         id: 0,
+        image: Overvue,
+        title: "New Client Onboarding",
+        description: "Full-stack web app to help financial advisors onboarding new clients.",
+        badge1: "Supabase",
+        badge2: "Fly.io",
+        badge3: "Vercel"
+    },
+    {
+        id: 1,
         image: GPT,
         title: "Personal GPT",
         description: "Full-stack personal AI chat assistant.",
@@ -20,7 +30,7 @@ const projectsData = [
         badge3: "Node.js"
     },
     {
-        id: 1,
+        id: 2,
         image: NASA,
         title: "NASA APOD API",
         description: "Full-stack web app displaying a new astronomy image and info daily.",
@@ -29,7 +39,7 @@ const projectsData = [
         badge3: "Heroku"
     },
     {
-        id: 2,
+        id: 3,
         image: Spotify,
         title: "Spotify Web API",
         description: "Full-stack web app visualizing my personal Spotify data in a similar UI.",
@@ -54,14 +64,14 @@ const projectsData = [
         badge2: "React",
     },*/
     {
-        id: 3,
+        id: 4,
         image: Unlayer,
         title: "Embedded Unlayer Editor",
         description: "Full-stack web app for designing, managing, and sending emails.",
         badge1: "MongoDB",
         badge2: "SendGrid API",
         badge3: "React"
-    },
+    }
 ]
 
 function Projects() {
@@ -76,23 +86,23 @@ function Projects() {
         {projectsData.map(({ id, image, title, description, badge1, badge2, badge3}) => (
         <div key={id}
         className="font-gotham lg:mb-8 md:mb-8 mb-4
-                    grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-2">
+                    grid grid-cols-2 gap-2">
         <div>
-            <img className="w-auto mb-1 w-40 rounded"
+            <img className="w-auto h-auto rounded"
             src={image} alt="project-screenshot"/>
         </div>
         <div>
             <p className="text-charcoal
-                            lg:text-base md:text-base text-sm
-                            mb-1 justify-right">{title}</p>
+                            lg:text-base md:text-base text-sm mb-1
+                            justify-right">{title}</p>
             <p className="text-charcoal
-                            lg:text-sm md:text-sm text-xs
-                            mb-3 justify-right">{description}</p>
-            <p className="invisible md:visible lg:visible inline-flex rounded bg-darkGreen text-lime
+                            lg:text-sm md:text-sm text-xs mb-1
+                            justify-right">{description}</p>
+            <p className="hidden md:inline-flex lg:inline-flex rounded bg-darkGreen text-lime
                             text-xs px-1 lg:px-2 md:px-2 py-1 mr-1 font-semibold font-inter">{badge1}</p>
-            <p className="invisible md:visible lg:visible inline-flex rounded bg-darkGreen text-lime
+            <p className="hidden md:inline-flex lg:inline-flex rounded bg-darkGreen text-lime
                             text-xs px-1 lg:px-2 md:px-2 py-1 mr-1 font-semibold font-inter">{badge2}</p>
-            <p className="invisible md:visible lg:visible inline-flex rounded bg-darkGreen text-lime
+            <p className="hidden md:inline-flex lg:inline-flex rounded bg-darkGreen text-lime
                             text-xs px-1 lg:px-2 md:px-2 py-1 mr-1 font-semibold font-inter">{badge3}</p>
         </div>
         </div>
