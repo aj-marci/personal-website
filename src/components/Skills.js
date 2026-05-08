@@ -36,7 +36,7 @@ function Experience() {
             <p>AWS</p>
             <p>Heroku</p>
             <p>MongoDB</p>
-            <p>REST</p>
+            <p>RESTful APIs</p>
             <p>GitHub</p>
             <p>Vercel</p>
             <p>Fly.io</p>
@@ -45,6 +45,9 @@ function Experience() {
             <p>TailwindCSS</p>
             <p>SSO</p>
             <p>SCIM</p>
+            <p>Claude Code</p>
+            <p>Codex</p>
+            <p>Workato</p>
           </div>
         )}
       </div>
