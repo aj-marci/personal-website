@@ -16,19 +16,19 @@ function About() {
             </p>
             <p className="lg:mb-2 md:mb-2 mb-1">
             Since co-founding CropShop, I've been working cross-functionally throughout 
-            software engineering, customer success, and growth.
+            software engineering, customer success, and sales.
             </p>
-            <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be a technical resource for enterprise customers 
-            as a Senior Customer Engineer at <a href="https://safetyculture.com/" target="_blank" rel="noopener noreferrer"
-                className="text-darkGreen hover:text-lightGreen font-bold underline decoration-dotted">SafetyCulture
+            <p className="lg:mb-2 md:mb-2 mb-1">I'm proud to currently be a technical resource throughout the sales process
+            as a Solutions Engineer at <a href="https://www.spot.ai/" target="_blank" rel="noopener noreferrer"
+                className="text-darkGreen hover:text-lightGreen font-bold underline decoration-dotted">Spot AI
             </a>.
             </p>
             <p>
             If I'm not at my computer you can find me cooking, golfing, hiking,
             or anything else outside with my wife <a href={AudRog}
                 target="_blank" rel="noopener noreferrer"
-                className="text-darkGreen hover:text-lightGreen font-bold underline decoration-dotted"> Audry
-            </a> and our pup Roger.
+                className="text-darkGreen hover:text-lightGreen font-bold underline decoration-dotted"> Audry,
+            </a> our son Tripp, and our pup Roger.
             </p>
         </div>
         </>
